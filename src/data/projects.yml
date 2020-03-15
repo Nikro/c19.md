@@ -1,17 +1,6 @@
-- c19.md:
-  name: c19.md
-  description: Platforma dată - colecție de instrumente digitale Open Source în contextul unei țări.
-  github: https://github.com/Nikro/c19.md
-  apply: https://docs.google.com/forms/d/e/1FAIpQLSenuQDgeFCadKNvndVgShMAhYXtmmsKOhhzdpKenChs-TOcpA/viewform
-  requests:
-    -
-      type: Web Developer
-      subtype: Gatsby
-      img: gatsby.png
-
 - project_info:
-  name: Info & Stats
-  description: Informații corecte despre COVID-19 în Moldova. Vizualizări și grafice.
+  name: "Info & Stats"
+  description: "Informații corecte despre COVID-19 în Moldova. Vizualizări și grafice."
   url: https://info.c19.md
   apply: https://docs.google.com/forms/d/e/1FAIpQLSfJ0gPCxz68tFe1TvoxNQ9dLXwlGTTzqeW9NQAHgvtjjyDBfQ/viewform
   github: https://github.com/code4moldova/covid19-vizualizare-date-md?fbclid=IwAR2SrcuNKYj3aLZqFgiqc2W2zy8FWU9PwK3DlYGUCctGJtvCt3v7_lcK9CQ
@@ -20,9 +9,36 @@
     -
       type: Mentor
       subtype: Tech / Non-Tech
-      img: mentor.png
+      image: platforms/mentor.png
 
     -
       type: Mobile Dev
       subtype: iOS / Android
-      img: ios_android.jpg
+      image: platforms/ios_android.jpg
+
+- project_how_do_you_feel:
+  name: "How do you Feel?"
+  description: "Aplicație mobilă ce face geolocare și întreabă o simplă întrebare: Cum te simți?"
+  apply: https://docs.google.com/forms/d/e/1FAIpQLSfJ0gPCxz68tFe1TvoxNQ9dLXwlGTTzqeW9NQAHgvtjjyDBfQ/viewform
+  trello: https://trello.com/c/2EaThk5N/4-how-do-you-feel-geo-health-tracker
+  requests:
+    -
+      type: Mentor
+      subtype: Tech / Non-Tech
+      image: platforms/mentor.png
+
+    -
+      type: Mobile Dev
+      subtype: iOS / Android
+      image: platforms/ios_android.jpg
+
+- c19.md:
+  name: c19.md
+  description: "Platforma dată - colecție de instrumente digitale Open Source în contextul unei țări."
+  github: https://github.com/Nikro/c19.md
+  apply: https://docs.google.com/forms/d/e/1FAIpQLSenuQDgeFCadKNvndVgShMAhYXtmmsKOhhzdpKenChs-TOcpA/viewform
+  requests:
+    -
+      type: Web Developer
+      subtype: Gatsby
+      image: platforms/gatsby.png

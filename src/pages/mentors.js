@@ -42,15 +42,17 @@ const Mentors = ({ data }) => {
 
 
       <Container className={classes.cardGrid} maxWidth="md" style={{marginTop: `30px`}}>
-        {/* End hero unit */}
         <Typography align="center" className={classes.headers}><h1>Mentori</h1></Typography>
         <Grid container spacing={4} alignItems="stretch">
           {mentorCards.map(card => (
             <Grid item key={card} xs={12} sm={6} md={4}>
               <Card className={classes.card}>
                 <CardMedia
-                  image={`/images/mentors/` + card.avatar}
+                  component="img"
+                  image={card.image.childImageSharp.fixed.src}
                   title={card.name}
+                  style={{marginBottom: 0}}
+                  height="240"
                 />
                 <CardContent className={classes.cardContent}>
                   <Typography gutterBottom variant="h5" component="h2">
@@ -76,7 +78,13 @@ export const MentorsPageQuery = graphql`
       nodes {
         name
         description
-        avatar
+        image {
+          childImageSharp {
+            fixed(width: 400, height: 300) {
+              src
+            }
+          }
+        }
       }
       totalCount
     }

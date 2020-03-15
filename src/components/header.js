@@ -21,7 +21,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon'
 import ListItemText from '@material-ui/core/ListItemText'
 import ListIcon from '@material-ui/icons/Apps'
 import PeopleIcon from '@material-ui/icons/People'
-import StorageIcon from '@material-ui/icons/Storage'
+import InfoIcon from '@material-ui/icons/Info'
 
 const drawerWidth = 240
 
@@ -156,12 +156,12 @@ const Header = ({ siteTitle }) => {
               <ListItemText>Mentori</ListItemText>
             </ListItem>
           </Link>
-          <Link to="/components">
+          <Link to="/about">
             <ListItem button>
               <ListItemIcon>
-                <StorageIcon />
+                <InfoIcon />
               </ListItemIcon>
-              <ListItemText>Resurse Utile</ListItemText>
+              <ListItemText>Despre noi</ListItemText>
             </ListItem>
           </Link>
         </List>

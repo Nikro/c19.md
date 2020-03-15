@@ -1,38 +1,35 @@
 -
   name: Traian Chivriga
   description: "Entrepreneur, community builder and lean startup enthusiast. Founded Vintage, an art eCommerce platform."
-  avatar: asdfasdf
+  image: mentors/traian_c.jpg
 
 -
   name: Artur Gurau
   description: "He is the CEO of Granat Digital Agency and the President of the Digital Communication Network."
-  avatar: artur_g.jpg
+  image: mentors/artur_g.jpg
 
 -
   name: Vitalie Esanu
   description: "CEO @ Privesc.eu, VoteMeApp."
-  avatar: vitalie_e.jpg
+  image: mentors/vitalie_e.jpg
 
 -
   name: Roman Chirca
   description: "Roman Gluck’s day to day activity is being a Project Manager / UX Designer under the flag o' WIS Digital Agency."
-  avatar: gluck.jpg
-
+  image: mentors/gluck.jpg
 
 -
   name: Alexandru Lebedev
   description: "Partner at XY Partners. CEO & Founder at diez.md"
-  avatar: alex_l.jpg
-
+  image: mentors/alex_l.jpg
 
 -
   name: Victor Bujoreanu
   description: "Product Application Engineer Materialise, Founder Atelier 99."
-  avatar: victor_b.jpg
-
+  image: mentors/victor_b.jpg
 
 -
   name: Ana Gherciu
   description: "PR ALTFilm Editor-in-Chief Moldova.org"
-  avatar: ana_g.jpg
+  image: mentors/ana_g.jpg
 

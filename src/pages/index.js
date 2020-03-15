@@ -17,7 +17,6 @@ import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
 import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import List from '@material-ui/core/List'
-import Link from '@material-ui/core/Link'
 import ListItem from '@material-ui/core/ListItem'
 import ListItemText from '@material-ui/core/ListItemText'
 import ListItemAvatar from '@material-ui/core/ListItemAvatar'
@@ -55,7 +54,6 @@ export default ({ data }) => {
       <SEO title="Lista de proiecte" />
 
       <Container className={classes.cardGrid} maxWidth="md" style={{marginTop: `50px`}}>
-        {/* End hero unit */}
         <Typography align="center" className={classes.headers}><h1>Proiecte în dezvoltare</h1></Typography>
         <Grid container spacing={4}>
           {projectsCards.map(card => (
@@ -75,10 +73,11 @@ export default ({ data }) => {
                       Proiect
                     </Button>
                   )}
-
-                  <Button size="small" color="primary" href={card.github}>
-                    Sursă
-                  </Button>
+                  { card.github && (
+                    <Button size="small" color="primary" href={card.github}>
+                      Sursă
+                    </Button>
+                  )}
                 </CardActions>
 
 
@@ -96,7 +95,11 @@ export default ({ data }) => {
                         <React.Fragment>
                           <ListItem>
                             <ListItemAvatar>
-                              <Avatar alt={requestItem.subtype} src={`/images/` + requestItem.img} />
+                              {(requestItem.image) ? (
+                                <Avatar alt={requestItem.subtype} src={requestItem.image.childImageSharp.fixed.src} />
+                              ) : (
+                                <Avatar alt={requestItem.subtype} />
+                              )}
                             </ListItemAvatar>
                             <ListItemText
                               primary={requestItem.type}
@@ -124,7 +127,6 @@ export default ({ data }) => {
       </Container>
 
       <Container className={classes.cardGrid} maxWidth="md" style={{marginTop: `30px`}}>
-        {/* End hero unit */}
         <Typography align="center" className={classes.headers}><h1>Idei propuse</h1></Typography>
         <Grid container spacing={4} alignItems="stretch">
           {ideaCards.map(card => (
@@ -176,9 +178,15 @@ export const IndexPageQuery = graphql`
         id
         url
         requests {
-          img
           type
           subtype
+          image {
+            childImageSharp {
+              fixed(width: 100, height: 100) {
+                src
+              }
+            }
+          }
         }
       }
       totalCount

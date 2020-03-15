@@ -21,7 +21,6 @@ import ListItemIcon from '@material-ui/core/ListItemIcon'
 import ListItemText from '@material-ui/core/ListItemText'
 import Collapse from '@material-ui/core/Collapse'
 import Hidden from '@material-ui/core/Hidden';
-import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 
 import InfoIcon from '@material-ui/icons/Info'

@@ -9,7 +9,6 @@
     -
       type: Mentor
       subtype: Tech / Non-Tech
-      image: platforms/mentor.png
 
     -
       type: Mobile Dev
@@ -25,7 +24,6 @@
     -
       type: Mentor
       subtype: Tech / Non-Tech
-      image: platforms/mentor.png
 
     -
       type: Mobile Dev

@@ -1,0 +1,11 @@
+- idea:
+  name: Lorem Ipsum
+  description: dolorem
+  url: https://google.com
+  github: what?
+
+- idea2:
+  name: Lorem Ipsum2
+  description: dolorem2
+  url: https://google.com
+  github: what?

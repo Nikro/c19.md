@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Instrumente contra COVID-19 în Moldova`,
-    description: `Kick off your next, great Gatsby project with this Material UI starter. This barebones starter ships with the main Gatsby and Material UI configuration files you might need.`,
-    author: `@dominicabela`,
+    description: `Platforma ce agrega proiecte contra virusului COVID-19 in contextul Moldovei.`,
+    author: `Volunteers from Moldova and abroad <3.`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -11,6 +11,13 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    `gatsby-transformer-yaml`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/data/`,
       },
     },
     `gatsby-transformer-sharp`,

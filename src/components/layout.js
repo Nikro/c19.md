@@ -1,19 +1,72 @@
 /**
- * Layout component that queries for data
- * with Gatsby's StaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/static-query/
- */
+* Layout component that queries for data
+                                    * with Gatsby's StaticQuery component
+*
+* See: https://www.gatsbyjs.org/docs/static-query/
+  */
 
 import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
+import { makeStyles } from '@material-ui/core/styles'
+import { useTheme } from '@material-ui/core/styles';
+
 import Typography from '@material-ui/core/Typography';
+import Button from '@material-ui/core/Button';
+import logoSVG from '../images/c19.svg'
+import Grid from '@material-ui/core/Grid'
+import List from '@material-ui/core/List'
+import ListItem from '@material-ui/core/ListItem'
+import ListItemIcon from '@material-ui/core/ListItemIcon'
+import ListItemText from '@material-ui/core/ListItemText'
+import Collapse from '@material-ui/core/Collapse'
+import Hidden from '@material-ui/core/Hidden';
+import Container from '@material-ui/core/Container';
+import Link from '@material-ui/core/Link';
+
+import InfoIcon from '@material-ui/icons/Info'
+import ExpandLess from '@material-ui/icons/ExpandLess'
+import ExpandMore from '@material-ui/icons/ExpandMore'
+import EmailIcon from '@material-ui/icons/Email'
+import ForumIcon from '@material-ui/icons/Forum'
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 import Header from './header'
 import './layout.css'
 
+
+const useStyles = makeStyles(theme => ({
+  root: {
+    width: '100%',
+    backgroundColor: theme.palette.background.paper,
+  },
+  nested: {
+    paddingLeft: theme.spacing(4),
+  },
+}));
+
 const Layout = ({ children }) => {
+  const classes = useStyles()
+
+  const [features, setFeatures] = React.useState(true)
+  const [info, setInfo] = React.useState(true)
+
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('xs'), {
+    defaultMatches: true
+  });
+
+  function handleClick(id) {
+    switch(id) {
+      case "features":
+        setFeatures(!features)
+        break;
+      case "info":
+        setInfo(!info)
+        break
+    }
+  }
+
   return (
     <StaticQuery
       query={graphql`
@@ -36,11 +89,91 @@ const Layout = ({ children }) => {
               paddingTop: 100,
             }}
           >
-            <main>{children}</main>
+            <Grid container spacing={3} justify="center">
+              <Grid item xs={12} sm={3} md={2}>
+                <div style={{ maxWidth: `120px`, marginLeft: `auto`, marginRight: `auto` }}>
+                  <img src={logoSVG} style={{ marginBottom: 0 }}/>
+                </div>
+              </Grid>
+              <Grid item xs={12} sm={8} md={8}>
+                <h1 style={{ marginTop: `1rem` }}>Instrumente Open Source in contextul Moldovei</h1>
+              </Grid>
+              <Grid item xs={12}>
+                <Hidden only={['xs']}>
+                  <Typography variant="h5" align="center" color="textSecondary" paragraph>
+                    Alătură-te și tu comunității noastre și hai împreună să găsim soluții pentru informarea, prevenirea și
+                    îmbunătățirea situației critice cauzate de COVID-19, cu ajutorul tehnologiilor moderne disponibile azi!
+                  </Typography>
+                </Hidden>
+                <Hidden smUp >
+                  <Typography variant="subtitle1" align="center" color="textSecondary" paragraph>
+                    Alătură-te și tu comunității noastre și hai împreună să găsim soluții pentru informarea, prevenirea și
+                    îmbunătățirea situației critice cauzate de COVID-19, cu ajutorul tehnologiilor moderne disponibile azi!
+                  </Typography>
+                </Hidden>
+              </Grid>
+            </Grid>
+
+            <div className={classes.heroButtons}>
+              <Grid container spacing={2} justify="center">
+                <Grid item>
+                  <Button variant="contained" color="primary">
+                    Adaugă proiect nou
+                  </Button>
+                </Grid>
+                <Grid item>
+                  <Button variant="outlined" color="primary">
+                    Adaugă idee
+                  </Button>
+                </Grid>
+                <Grid item>
+                  <Button variant="outlined" color="primary">
+                    Aplică la următorul Hackathon
+                  </Button>
+                </Grid>
+              </Grid>
+            </div>
+
+            <main style={{paddingTop: `30px`, paddingBottom: `30px`}}>{children}</main>
+
+            <List component="nav" className={classes.root}>
+              <ListItem button onClick={() => handleClick("info")}>
+                <ListItemIcon>
+                  <InfoIcon />
+                </ListItemIcon>
+                <ListItemText primary="Informații de contact" />
+                {!info ? <ExpandLess /> : <ExpandMore />}
+              </ListItem>
+              <Collapse in={!info} timeout="auto" unmountOnExit>
+                <Grid container spacing={isMobile ? 0 : 10}>
+                  <Grid item xs={12} sm={5}>
+                    <List component="div" disablePadding>
+                      <ListItem button className={classes.nested} href={'https://google.com'}>
+                        <ListItemIcon><EmailIcon /></ListItemIcon>
+                        <ListItemText primary="Contact echipa c19.md" />
+                      </ListItem>
+                      <ListItem button className={classes.nested}>
+                        <ListItemIcon><EmailIcon /></ListItemIcon>
+                        <ListItemText primary="Contact echipa technică" />
+                      </ListItem>
+                    </List>
+                  </Grid>
+                  <Grid item xs={12} sm={5}>
+                    <List component="div" disablePadding>
+                      <ListItem button className={classes.nested} href={'https://google.com'}>
+                        <ListItemIcon><ForumIcon /></ListItemIcon>
+                        <ListItemText primary="Facebook Group" />
+                      </ListItem>
+                    </List>
+                  </Grid>
+                </Grid>
+
+              </Collapse>
+            </List>
             <footer style={{ paddingTop: 10 }}>
-                <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-                    Creat de un grup de voluntari - {new Date().getFullYear()}.
-                </Typography>
+              <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
+                Creat de un grup de voluntari - {new Date().getFullYear()}.
+              </Typography>
             </footer>
           </div>
         </div>

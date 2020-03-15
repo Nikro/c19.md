@@ -1,0 +1,15 @@
+- project1:
+  name: COVID-19 INFO
+  description: Informații corecte despre COVID-19 în Moldova.
+  url: https://google.com
+  github: what?
+  requests:
+    -
+      type: Web Developer
+      subtype: Drupal
+      img: drupal.png
+
+    -
+      type: Web Developer
+      subtype: Drupal
+      img: drupal.png

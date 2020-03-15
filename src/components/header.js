@@ -100,7 +100,6 @@ const Header = ({ siteTitle }) => {
     <div className={classes.root}>
       <CssBaseline />
       <AppBar
-        position="fixed"
         elevation={0}
         className={clsx(classes.appBar, {
           [classes.appBarShift]: open,
@@ -116,7 +115,7 @@ const Header = ({ siteTitle }) => {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" color="inherit">
+          <Typography variant="h6" color="inherit" noWrap>
             {siteTitle}
           </Typography>
         </Toolbar>

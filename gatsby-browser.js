@@ -4,4 +4,5 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-require('typeface-roboto');
+require('typeface-roboto-multilang');
+require('typeface-roboto-multilang/latin-ext.css');

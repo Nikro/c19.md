@@ -108,7 +108,7 @@ export default ({ data }) => {
                   </ExpansionPanelSummary>
                   <ExpansionPanelDetails>
                     <List className={classes.root} dense>
-                      {card.requests.map(requestItem => (
+                      {card.requests.map((requestItem, index) => (
                         <React.Fragment>
                           <ListItem>
                             <ListItemAvatar>
@@ -119,7 +119,9 @@ export default ({ data }) => {
                               secondary={requestItem.subtype}
                             />
                           </ListItem>
-                          <Divider variant="inset" component="li" />
+                          { index !== (card.requests.length -1) && (
+                            <Divider variant="inset" component="li" />
+                          )}
                         </React.Fragment>
                       ))}
                     </List>

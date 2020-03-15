@@ -1,3 +1,14 @@
+- c19.md:
+  name: c19.md
+  description: Platforma dată - colecție de instrumente digitale Open Source în contextul unei țări.
+  url: https://c19.md
+  github: https://github.com/Nikro/c19.md
+  requests:
+    -
+      type: Web Developer
+      subtype: Gatsby
+      img: gatsby.png
+
 - project1:
   name: COVID-19 INFO
   description: Informații corecte despre COVID-19 în Moldova.

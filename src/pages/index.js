@@ -78,6 +78,11 @@ export default ({ data }) => {
                       Sursă
                     </Button>
                   )}
+                  { card.trello && (
+                    <Button size="small" color="primary" href={card.trello}>
+                      Detalii
+                    </Button>
+                  )}
                 </CardActions>
 
 
@@ -177,6 +182,7 @@ export const IndexPageQuery = graphql`
         github
         id
         url
+        trello
         requests {
           type
           subtype

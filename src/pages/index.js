@@ -17,6 +17,7 @@ import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
 import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import List from '@material-ui/core/List'
+import Link from '@material-ui/core/Link'
 import ListItem from '@material-ui/core/ListItem'
 import ListItemText from '@material-ui/core/ListItemText'
 import ListItemAvatar from '@material-ui/core/ListItemAvatar'
@@ -31,55 +32,35 @@ const useStyles = makeStyles(theme => ({
   nested: {
     paddingLeft: theme.spacing(4),
   },
+  headers: {
+    marginTop: theme.spacing(6),
+    marginBottom: theme.spacing(4),
+  },
+  card: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between",
+    height: '100%',
+  }
 }));
 
 export default ({ data }) => {
-
   const classes = useStyles()
 
   const ideaCards = data.allIdeasYaml.nodes
   const projectsCards = data.allProjectsYaml.nodes
 
-  console.log(data)
-  console.log('test')
-
   return(
     <Layout>
-      <SEO title="Home" />
-
-      <Container className={classes.cardGrid} maxWidth="md" style={{marginTop: `30px`}}>
-        {/* End hero unit */}
-        <Typography align="center" paragraph><h1>Idei propuse</h1></Typography>
-        <Grid container spacing={4}>
-          {ideaCards.map(card => (
-            <Grid item key={card} xs={12} sm={6} md={4}>
-              <Card className={classes.card}>
-                <CardContent className={classes.cardContent}>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    { card.name }
-                  </Typography>
-                  <Typography variant="body2" component="p">
-                    { card.description }
-                  </Typography>
-                </CardContent>
-                <CardActions>
-                  <Button size="small" color="primary">
-                    Vreau să mă implic
-                  </Button>
-                </CardActions>
-              </Card>
-            </Grid>
-          ))}
-        </Grid>
-      </Container>
+      <SEO title="Lista de proiecte" />
 
       <Container className={classes.cardGrid} maxWidth="md" style={{marginTop: `50px`}}>
         {/* End hero unit */}
-        <Typography align="center" paragraph><h1>Proiecte în dezvoltare</h1></Typography>
+        <Typography align="center" className={classes.headers}><h1>Proiecte în dezvoltare</h1></Typography>
         <Grid container spacing={4}>
           {projectsCards.map(card => (
             <Grid item key={card} xs={12} sm={6} md={4}>
-              <Card className={classes.card}>
+              <Card>
                 <CardContent className={classes.cardContent}>
                   <Typography gutterBottom variant="h5" component="h2">
                     { card.name }
@@ -89,10 +70,13 @@ export default ({ data }) => {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button size="small" color="primary">
-                    Proiect
-                  </Button>
-                  <Button size="small" color="primary">
+                  { card.url && (
+                    <Button size="small" color="primary" href={card.url}>
+                      Proiect
+                    </Button>
+                  )}
+
+                  <Button size="small" color="primary" href={card.github}>
                     Sursă
                   </Button>
                 </CardActions>
@@ -124,10 +108,44 @@ export default ({ data }) => {
                           )}
                         </React.Fragment>
                       ))}
+                      <ListItem>
+                        <Button variant="contained" color="primary" fullWidth href={card.apply}>
+                          Aplică!
+                        </Button>
+                      </ListItem>
                     </List>
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
 
+              </Card>
+            </Grid>
+          ))}
+        </Grid>
+      </Container>
+
+      <Container className={classes.cardGrid} maxWidth="md" style={{marginTop: `30px`}}>
+        {/* End hero unit */}
+        <Typography align="center" className={classes.headers}><h1>Idei propuse</h1></Typography>
+        <Grid container spacing={4} alignItems="stretch">
+          {ideaCards.map(card => (
+            <Grid item key={card} xs={12} sm={6} md={4}>
+              <Card className={classes.card}>
+                <CardContent className={classes.cardContent}>
+                  <Typography gutterBottom variant="h5" component="h2">
+                    { card.name }
+                  </Typography>
+                  <Typography variant="body2" component="p">
+                    { card.description }
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button size="small" color="primary" href={card.url}>
+                    Vreau să mă implic
+                  </Button>
+                  <Button size="small" color="primary" href={card.trello}>
+                    Discuții
+                  </Button>
+                </CardActions>
               </Card>
             </Grid>
           ))}
@@ -139,14 +157,14 @@ export default ({ data }) => {
 }
 
 export const IndexPageQuery = graphql`
-  query Ideas {
+  query IdeasProjects {
     allIdeasYaml {
       nodes {
         name
         description
-        github
         id
         url
+        trello
       }
       totalCount
     }

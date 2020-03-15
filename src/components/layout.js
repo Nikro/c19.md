@@ -117,17 +117,12 @@ const Layout = ({ children }) => {
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
                 <Grid item>
-                  <Button variant="contained" color="primary">
-                    Adaugă proiect nou
+                  <Button variant="contained" color="primary" href="https://docs.google.com/forms/d/e/1FAIpQLScl4_Adqe5vMAO95lN9A1Bibf4y3X8aGXh1_yBY1X_Ew7KxMg/viewform">
+                    Adaugă proiect / idee nouă
                   </Button>
                 </Grid>
                 <Grid item>
-                  <Button variant="outlined" color="primary">
-                    Adaugă idee
-                  </Button>
-                </Grid>
-                <Grid item>
-                  <Button variant="outlined" color="primary">
+                  <Button variant="outlined" color="primary" href="https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform">
                     Aplică la următorul Hackathon
                   </Button>
                 </Grid>
@@ -148,11 +143,11 @@ const Layout = ({ children }) => {
                 <Grid container spacing={isMobile ? 0 : 10}>
                   <Grid item xs={12} sm={5}>
                     <List component="div" disablePadding>
-                      <ListItem button className={classes.nested} href={'https://google.com'}>
+                      <ListItem button className={classes.nested} component={Link} href="mailto:contact@c19.md">
                         <ListItemIcon><EmailIcon /></ListItemIcon>
                         <ListItemText primary="Contact echipa c19.md" />
                       </ListItem>
-                      <ListItem button className={classes.nested}>
+                      <ListItem button className={classes.nested} component={Link} href="mailto:tech@c19.md">
                         <ListItemIcon><EmailIcon /></ListItemIcon>
                         <ListItemText primary="Contact echipa technică" />
                       </ListItem>
@@ -160,7 +155,7 @@ const Layout = ({ children }) => {
                   </Grid>
                   <Grid item xs={12} sm={5}>
                     <List component="div" disablePadding>
-                      <ListItem button className={classes.nested} href={'https://google.com'}>
+                      <ListItem button className={classes.nested} component={Link} href="https://www.facebook.com/groups/c19mdopensource">
                         <ListItemIcon><ForumIcon /></ListItemIcon>
                         <ListItemText primary="Facebook Group" />
                       </ListItem>

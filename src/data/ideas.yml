@@ -1,11 +1,53 @@
-- idea:
-  name: Lorem Ipsum
-  description: dolorem
-  url: https://google.com
-  github: what?
+- idea_ml:
+  name: ML Diagnostics
+  description: 'Machine Learning (inteligența artificială) pentru identificarea virusului COVID-19.'
+  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Machine+Learning+for+COVID-19+Diagnosis
+  trello: https://trello.com/c/zqRoNuDb/2-machine-learning-for-covid-19-diagnosis-vladimir-s-diana
 
-- idea2:
-  name: Lorem Ipsum2
-  description: dolorem2
-  url: https://google.com
-  github: what?
+- idea_help_in_need:
+  name: Help In Need
+  description: 'Ajutor celor ce au nevoie: mâncare, medicamente, etc.'
+  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Help+to+those+in+Need+-+food+/+medications
+  trello: https://trello.com/c/DWlq9dQD/3-help-to-those-in-need-food-medications-ruxanda
+
+- idea_ventilator:
+  name: DIY Ventilator
+  description: 'Crearea unui apart de ventilare DIY (Hardware).'
+  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=DIY+Breathing+Ventilator+%5Bhardware%5D
+  trello: https://trello.com/c/OGxTf48O/5-diy-breathing-ventilator-hardware
+
+- idea_business:
+  name: Support for Businesses
+  description: 'Ajutor, sfaturi, ghiduri pentru antreprenori.'
+  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Support+for+Businesses
+  trello: https://trello.com/c/KfkEGgao/6-support-for-businesses
+
+- idea_elearning:
+  name: Distance Learning in MD
+  description: 'Ghid și instrumente pentru școli și profesori pentru a implementa practica de elearning.'
+  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Distance+Learning+-+guide+for+teachers+/+schools
+  trello: https://trello.com/c/8gnIgATu/8-distance-learning-guide-for-teachers-schools
+
+- idea_chat:
+  name: Chat specializat
+  description: 'Chat automatizat cu BOT pentru a se auto-examena (ajutorul liniei verzi).'
+  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Chat+specialized+on+COVID-19+%5Bwith+BOT%5D
+  trello: https://trello.com/c/dzbVo3tV/7-chat-specialized-on-covid-19-with-bot
+
+- idea_selfcheck:
+  name: Self-check App
+  description: 'Aplicație unde poți loga măsurări de temperatură, interacțiuni cu prieteni / rude, etc.'
+  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=COVID-19+Self-check+Mobile+App+%5BTemp+%2B+Interactions%5D
+  trello: https://trello.com/c/EvTqD8B1/9-covid-19-self-check-mobile-app-temp-interactions
+
+- idea_remotecheck:
+  name: Remote Check
+  description: 'Platformă cu cereri de verificare stării de sănătate a prietenilor și rudelor ce nu pot fi contactați.'
+  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Remote+Check+-Check-up+on+your+relative+(parents+/+grand-parents)
+  trello: https://trello.com/c/9cvmCeGr/10-remote-check
+
+- idea_sceptic:
+  name: Fight Sceptics
+  description: 'Proiecte media și campanii menite combaterii scepticismului și dezinformării în public.'
+  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Combaterea+scepticismului
+  trello: https://trello.com/c/mtyvwwbg/11-combaterea-scepticismului

@@ -1,26 +1,28 @@
 - c19.md:
   name: c19.md
   description: Platforma dată - colecție de instrumente digitale Open Source în contextul unei țări.
-  url: https://c19.md
   github: https://github.com/Nikro/c19.md
+  apply: https://docs.google.com/forms/d/e/1FAIpQLSenuQDgeFCadKNvndVgShMAhYXtmmsKOhhzdpKenChs-TOcpA/viewform
   requests:
     -
       type: Web Developer
       subtype: Gatsby
       img: gatsby.png
 
-- project1:
-  name: COVID-19 INFO
-  description: Informații corecte despre COVID-19 în Moldova.
-  url: https://google.com
-  github: what?
+- project_info:
+  name: Info & Stats
+  description: Informații corecte despre COVID-19 în Moldova. Vizualizări și grafice.
+  url: https://info.c19.md
+  apply: https://docs.google.com/forms/d/e/1FAIpQLSfJ0gPCxz68tFe1TvoxNQ9dLXwlGTTzqeW9NQAHgvtjjyDBfQ/viewform
+  github: https://github.com/code4moldova/covid19-vizualizare-date-md?fbclid=IwAR2SrcuNKYj3aLZqFgiqc2W2zy8FWU9PwK3DlYGUCctGJtvCt3v7_lcK9CQ
+  trello: https://trello.com/c/nnx9bkQ8/1-covupdate-knowvid19-or-centrul-de-informare-coronavirus-moldova-mihaela-dumitru-ion-iulian
   requests:
     -
-      type: Web Developer
-      subtype: Drupal
-      img: drupal.png
+      type: Mentor
+      subtype: Tech / Non-Tech
+      img: mentor.png
 
     -
-      type: Web Developer
-      subtype: Drupal
-      img: drupal.png
+      type: Mobile Dev
+      subtype: iOS / Android
+      img: ios_android.jpg

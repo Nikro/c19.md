@@ -183,6 +183,7 @@ export const IndexPageQuery = graphql`
         id
         url
         trello
+        apply
         requests {
           type
           subtype

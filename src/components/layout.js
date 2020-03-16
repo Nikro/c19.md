@@ -158,6 +158,10 @@ const Layout = ({ children }) => {
                         <ListItemIcon><ForumIcon /></ListItemIcon>
                         <ListItemText primary="Facebook Group" />
                       </ListItem>
+                      <ListItem button className={classes.nested} component={Link} href="https://join.slack.com/t/c19md/shared_invite/zt-crwaj52o-t7WS8QBy2cM78eYd4fEhxw">
+                        <ListItemIcon><ForumIcon /></ListItemIcon>
+                        <ListItemText primary="Discuții Slack" />
+                      </ListItem>
                     </List>
                   </Grid>
                 </Grid>

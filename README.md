@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://c19.md">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+    <img alt="Gatsby" src="https://c19.md/images/c19.svg" width="100" />
   </a>
 </p>
 <h1 align="center">

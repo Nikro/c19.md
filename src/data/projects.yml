@@ -1,9 +1,9 @@
 - project_info:
   name: "Info & Stats"
   description: "Informații corecte despre COVID-19 în Moldova. Vizualizări și grafice."
-  url: https://info.c19.md
+  url: https://code4moldova.github.io/
   apply: https://docs.google.com/forms/d/e/1FAIpQLSfJ0gPCxz68tFe1TvoxNQ9dLXwlGTTzqeW9NQAHgvtjjyDBfQ/viewform
-  github: https://github.com/code4moldova/covid19-vizualizare-date-md?fbclid=IwAR2SrcuNKYj3aLZqFgiqc2W2zy8FWU9PwK3DlYGUCctGJtvCt3v7_lcK9CQ
+  github: https://github.com/code4moldova/code4moldova.github.io
   trello: https://trello.com/c/nnx9bkQ8/1-covupdate-knowvid19-or-centrul-de-informare-coronavirus-moldova-mihaela-dumitru-ion-iulian
   requests:
     -

@@ -68,7 +68,6 @@ const About = ( ) => {
         <ol>
           <li>Inițierea proiectului - formare echipei voluntare de suportul inițiativei.</li>
           <li>Cercetarea situației - procesul de cercetare va fi continuu pe tot parcursul proiectului.</li>
-          <li>Cercetarea situației - procesul de cercetare va fi continuu pe tot parcursul proiectului.</li>
           <li>Formarea focusului - alegerea problemelor și soluțiilor.</li>
           <li>Organizarea hackathon - urmează să fie mai multe ediții.</li>
           <li>Formarea soluțiilor și echipelor.</li>

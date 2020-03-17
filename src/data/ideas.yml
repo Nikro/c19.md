@@ -51,3 +51,21 @@
   description: 'Proiecte media și campanii menite combaterii scepticismului și dezinformării în public.'
   url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Combaterea+scepticismului
   trello: https://trello.com/c/mtyvwwbg/11-combaterea-scepticismului
+
+- idea_robot:
+  name: Robot food / medication delivery
+  description: 'Crearea unui robot/mașinărie care să meargă în spitale/ locuri unde oamenii sunt în carantină și sa livreze mîncare și medicamente. [...]'
+  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Robot+food+/+medication+delivery
+  trello: https://trello.com/c/EciMNx0g/15-robot-food-medication-delivery
+
+- idea_greenzone:
+  name: Zona Verde / Avoid them Maybe?
+  description: 'O aplicație care să permită informarea utilizatorilor despre aglomerații în magazine, alimentari cu combustibil, pentru a micșora riscul infectării cu coronavirus.'
+  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Zona+Verde+/+Avoid+Them+Maybe?
+  trello: https://trello.com/c/OMYccmM7/17-zona-verde-avoid-them-maybe
+
+- idea_prvlessons:
+  name: Lectii online pentru copii/adulti
+  description: 'In Moldova avem un numar de persoane venitul carora este bazat doar pe servicii pe care le presteaza pentru grupuri mici: fie asta lectii de yoga sau dans, lectii pentru copii in arta, muzica sau limbi straine [...]'
+  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Lec%C8%9Bii+online+pentru+Copii+/+Adul%C8%9Bi
+  trello: https://trello.com/c/OP1iAtUc/21-lectii-online-pentru-copii-adulti

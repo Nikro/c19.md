@@ -12,7 +12,6 @@ import Toolbar from '@material-ui/core/Toolbar'
 import List from '@material-ui/core/List'
 import Typography from '@material-ui/core/Typography'
 import Divider from '@material-ui/core/Divider'
-import IconButton from '@material-ui/core/IconButton'
 import MenuIcon from '@material-ui/icons/Menu'
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft'
 import ChevronRightIcon from '@material-ui/icons/ChevronRight'
@@ -22,7 +21,12 @@ import ListItemText from '@material-ui/core/ListItemText'
 import ListIcon from '@material-ui/icons/Apps'
 import PeopleIcon from '@material-ui/icons/People'
 import InfoIcon from '@material-ui/icons/Info'
-
+import LanguageIcon from '@material-ui/icons/Language'
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import IconButton from '@material-ui/core/IconButton';
+import Button from '@material-ui/core/Button';
+import Menu from '@material-ui/core/Menu';
+import MenuItem from '@material-ui/core/MenuItem';
 const drawerWidth = 240
 
 const useStyles = makeStyles(theme => ({
@@ -46,6 +50,9 @@ const useStyles = makeStyles(theme => ({
   },
   menuButton: {
     marginRight: theme.spacing(2),
+  },
+  translationMenu: {
+    marginLeft: 'auto',
   },
   hide: {
     display: 'none',
@@ -96,6 +103,16 @@ const Header = ({ siteTitle }) => {
     setOpen(false)
   }
 
+  const [anchorEl, setAnchorEl] = React.useState(null);
+
+  const handleLanguageClick = event => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleLanguageClose = () => {
+    setAnchorEl(null);
+  };
+
   return (
     <div className={classes.root}>
       <CssBaseline />
@@ -118,6 +135,29 @@ const Header = ({ siteTitle }) => {
           <Typography variant="h6" color="inherit" noWrap>
             {siteTitle}
           </Typography>
+          <Button
+            edge="end"
+            aria-controls="simple-menu"
+            aria-haspopup="true"
+            color="inherit"
+            onClick={handleLanguageClick}
+            startIcon={<LanguageIcon />}
+            endIcon={<ExpandMoreIcon />}
+            className={classes.translationMenu}
+          >
+            Română
+          </Button>
+          <Menu
+            id="simple-menu"
+            anchorEl={anchorEl}
+            keepMounted
+            open={Boolean(anchorEl)}
+            onClose={handleLanguageClose}
+          >
+            <MenuItem onClick={handleLanguageClose}>Română</MenuItem>
+            <MenuItem onClick={handleLanguageClose}>Русский</MenuItem>
+            <MenuItem onClick={handleLanguageClose}><s>English</s></MenuItem>
+          </Menu>
         </Toolbar>
       </AppBar>
       <Drawer

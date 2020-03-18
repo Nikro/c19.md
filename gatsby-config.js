@@ -56,5 +56,16 @@ module.exports = {
         dataLayerName: "dataLayer",
       },
     },
+    {
+      resolve: `gatsby-plugin-intl`,
+      options: {
+        // language JSON resource path
+        path: `${__dirname}/src/intl`,
+        // supported language
+        languages: [`ro`, `ru`, `en`],
+        defaultLanguage: `ro`,
+        redirect: false,
+      },
+    }
   ],
 }

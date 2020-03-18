@@ -22,6 +22,8 @@ import ListItemText from '@material-ui/core/ListItemText'
 import ListItemAvatar from '@material-ui/core/ListItemAvatar'
 import Avatar from '@material-ui/core/Avatar'
 import Divider from '@material-ui/core/Divider'
+import {Link as LinkInt} from "gatsby-plugin-intl"
+import { useIntl } from "gatsby-plugin-intl"
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -45,13 +47,17 @@ const useStyles = makeStyles(theme => ({
 
 export default ({ data }) => {
   const classes = useStyles()
+  const intl = useIntl()
 
   const ideaCards = data.allIdeasYaml.nodes
   const projectsCards = data.allProjectsYaml.nodes
 
   return(
     <Layout>
-      <SEO title="Lista de proiecte" />
+      <SEO
+        title="Lista de proiecte"
+        lang={intl.locale}
+      />
 
       <Container className={classes.cardGrid} maxWidth="md" style={{marginTop: `50px`}}>
         <Typography align="center" className={classes.headers}><h1>Proiecte în dezvoltare</h1></Typography>

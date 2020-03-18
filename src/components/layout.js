@@ -29,6 +29,8 @@ import ExpandMore from '@material-ui/icons/ExpandMore'
 import EmailIcon from '@material-ui/icons/Email'
 import ForumIcon from '@material-ui/icons/Forum'
 import useMediaQuery from '@material-ui/core/useMediaQuery';
+import { useIntl } from "gatsby-plugin-intl"
+import {Link as LinkInt} from "gatsby-plugin-intl"
 
 import Header from './header'
 import './layout.css'
@@ -46,6 +48,7 @@ const useStyles = makeStyles(theme => ({
 
 const Layout = ({ children }) => {
   const classes = useStyles()
+  const intl = useIntl()
 
   const [features, setFeatures] = React.useState(true)
   const [info, setInfo] = React.useState(true)
@@ -95,19 +98,17 @@ const Layout = ({ children }) => {
                 </div>
               </Grid>
               <Grid item xs={12} sm={8} md={8}>
-                <h1 style={{ marginTop: `1rem` }}>Instrumente Open Source in contextul Moldovei</h1>
+                <h1 style={{ marginTop: `1rem` }}>{intl.formatMessage({ id: "title" })}</h1>
               </Grid>
               <Grid item xs={12}>
                 <Hidden only={['xs']}>
                   <Typography variant="h5" align="center" color="textSecondary" paragraph>
-                    Alătură-te și tu comunității noastre și hai împreună să găsim soluții pentru informarea, prevenirea și
-                    îmbunătățirea situației critice cauzate de COVID-19, cu ajutorul tehnologiilor moderne disponibile azi!
+                    {intl.formattedMessage({ id: "intro" })}
                   </Typography>
                 </Hidden>
                 <Hidden smUp >
                   <Typography variant="subtitle1" align="center" color="textSecondary" paragraph>
-                    Alătură-te și tu comunității noastre și hai împreună să găsim soluții pentru informarea, prevenirea și
-                    îmbunătățirea situației critice cauzate de COVID-19, cu ajutorul tehnologiilor moderne disponibile azi!
+                    {intl.formattedMessage({ id: "intro" })}
                   </Typography>
                 </Hidden>
               </Grid>

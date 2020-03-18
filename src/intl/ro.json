@@ -1,4 +1,13 @@
 {
   "title": "Instrumente Open Source in contextul Moldovei",
-  "intro": "Alătură-te și tu comunității noastre și hai împreună să găsim soluții pentru informarea, prevenirea și îmbunătățirea situației critice cauzate de COVID-19, cu ajutorul tehnologiilor moderne disponibile azi!"
+  "intro": "Alătură-te și tu comunității noastre și hai împreună să găsim soluții pentru informarea, prevenirea și îmbunătățirea situației critice cauzate de COVID-19, cu ajutorul tehnologiilor moderne disponibile azi!",
+  "actions": {
+    "add_project": "Adaugă proiect / idee nouă",
+    "apply_hack": "Aplică la următorul Hackathon"
+  },
+  "contact": {
+    "contact_team": "",
+    "contact_tech": "",
+    "contact_": "",
+  }
 }

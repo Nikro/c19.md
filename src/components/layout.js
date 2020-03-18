@@ -103,12 +103,12 @@ const Layout = ({ children }) => {
               <Grid item xs={12}>
                 <Hidden only={['xs']}>
                   <Typography variant="h5" align="center" color="textSecondary" paragraph>
-                    {intl.formattedMessage({ id: "intro" })}
+                    {intl.formatMessage({ id: "intro" })}
                   </Typography>
                 </Hidden>
                 <Hidden smUp >
                   <Typography variant="subtitle1" align="center" color="textSecondary" paragraph>
-                    {intl.formattedMessage({ id: "intro" })}
+                    {intl.formatMessage({ id: "intro" })}
                   </Typography>
                 </Hidden>
               </Grid>
@@ -118,12 +118,12 @@ const Layout = ({ children }) => {
               <Grid container spacing={2} justify="center">
                 <Grid item>
                   <Button variant="contained" color="primary" href="https://docs.google.com/forms/d/e/1FAIpQLScl4_Adqe5vMAO95lN9A1Bibf4y3X8aGXh1_yBY1X_Ew7KxMg/viewform">
-                    Adaugă proiect / idee nouă
+                    {intl.formatMessage({ id: "actions.add_project" })}
                   </Button>
                 </Grid>
                 <Grid item>
                   <Button variant="outlined" color="primary" href="https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform">
-                    Aplică la următorul Hackathon
+                    {intl.formatMessage({ id: "actions.apply_hack" })}
                   </Button>
                 </Grid>
               </Grid>

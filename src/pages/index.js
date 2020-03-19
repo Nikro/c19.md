@@ -67,10 +67,10 @@ export default ({ data }) => {
               <Card>
                 <CardContent className={classes.cardContent}>
                   <Typography gutterBottom variant="h5" component="h2">
-                    { card.name }
+                    { card.name[intl.locale] }
                   </Typography>
                   <Typography variant="body2" component="p">
-                    { card.description }
+                    { card.description[intl.locale] }
                   </Typography>
                 </CardContent>
                 <CardActions>
@@ -91,46 +91,46 @@ export default ({ data }) => {
                   )}
                 </CardActions>
 
-
-                <ExpansionPanel>
-                  <ExpansionPanelSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel2a-content"
-                    id="panel2a-header"
-                  >
-                    <Typography variant="caption">{intl.formatMessage({ id: "index.action_info_need" })}</Typography>
-                  </ExpansionPanelSummary>
-                  <ExpansionPanelDetails>
-                    <List className={classes.root} dense>
-                      {card.requests.map((requestItem, index) => (
-                        <React.Fragment key={index}>
-                          <ListItem>
-                            <ListItemAvatar>
-                              {(requestItem.image) ? (
-                                <Avatar alt={requestItem.subtype} src={requestItem.image.childImageSharp.fixed.src} />
-                              ) : (
-                                <Avatar alt={requestItem.subtype} />
-                              )}
-                            </ListItemAvatar>
-                            <ListItemText
-                              primary={requestItem.type}
-                              secondary={requestItem.subtype}
-                            />
-                          </ListItem>
-                          { index !== (card.requests.length -1) && (
-                            <Divider variant="inset" component="li" />
-                          )}
-                        </React.Fragment>
-                      ))}
-                      <ListItem>
-                        <Button variant="contained" color="primary" fullWidth href={card.apply}>
-                          {intl.formatMessage({ id: "index.action_apply_team" })}
-                        </Button>
-                      </ListItem>
-                    </List>
-                  </ExpansionPanelDetails>
-                </ExpansionPanel>
-
+                { card.requests && (
+                  <ExpansionPanel>
+                    <ExpansionPanelSummary
+                      expandIcon={<ExpandMoreIcon />}
+                      aria-controls="panel2a-content"
+                      id="panel2a-header"
+                    >
+                      <Typography variant="caption">{intl.formatMessage({ id: "index.action_info_need" })}</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails>
+                      <List className={classes.root} dense>
+                        {card.requests.map((requestItem, index) => (
+                          <React.Fragment key={index}>
+                            <ListItem>
+                              <ListItemAvatar>
+                                {(requestItem.image) ? (
+                                  <Avatar alt={requestItem.subtype} src={requestItem.image.childImageSharp.fixed.src} />
+                                ) : (
+                                  <Avatar alt={requestItem.subtype} />
+                                )}
+                              </ListItemAvatar>
+                              <ListItemText
+                                primary={requestItem.type}
+                                secondary={requestItem.subtype}
+                              />
+                            </ListItem>
+                            { index !== (card.requests.length -1) && (
+                              <Divider variant="inset" component="li" />
+                            )}
+                          </React.Fragment>
+                        ))}
+                        <ListItem>
+                          <Button variant="contained" color="primary" fullWidth href={card.apply}>
+                            {intl.formatMessage({ id: "index.action_apply_team" })}
+                          </Button>
+                        </ListItem>
+                      </List>
+                    </ExpansionPanelDetails>
+                  </ExpansionPanel>
+                )}
               </Card>
             </Grid>
           ))}
@@ -147,10 +147,10 @@ export default ({ data }) => {
               <Card className={classes.card}>
                 <CardContent className={classes.cardContent}>
                   <Typography gutterBottom variant="h5" component="h2">
-                    { card.name }
+                    { card.name[intl.locale] }
                   </Typography>
                   <Typography variant="body2" component="p">
-                    { card.description }
+                    { card.description[intl.locale] }
                   </Typography>
                 </CardContent>
                 <CardActions>
@@ -175,8 +175,16 @@ export const IndexPageQuery = graphql`
   query IdeasProjects {
     allIdeasYaml {
       nodes {
-        name
-        description
+        name {
+          ro
+          ru
+          en
+        }
+        description {
+          ro
+          ru
+          en
+        }
         id
         url
         trello
@@ -185,8 +193,16 @@ export const IndexPageQuery = graphql`
     }
     allProjectsYaml {
       nodes {
-        name
-        description
+        name {
+          ro
+          ru
+          en
+        }
+        description {
+          ro
+          ru
+          en  
+        }
         github
         id
         url
@@ -198,7 +214,7 @@ export const IndexPageQuery = graphql`
           image {
             childImageSharp {
               fixed(width: 100, height: 100) {
-                src
+                srct
               }
             }
           }

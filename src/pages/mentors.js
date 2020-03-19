@@ -62,7 +62,7 @@ const Mentors = ({ data }) => {
                   <Typography gutterBottom variant="h5" component="h2">
                     { card.name }
                   </Typography>
-                  <Typography variant="body2" component="p" dangerouslySetInnerHTML={{ __html: card.description }} />
+                  <Typography variant="body2" component="p" dangerouslySetInnerHTML={{ __html: card.description[intl.locale] }} />
                 </CardContent>
               </Card>
             </Grid>
@@ -81,7 +81,11 @@ export const MentorsPageQuery = graphql`
     allMentorsYaml {
       nodes {
         name
-        description
+        description {
+          ro
+          ru
+          en
+        }
         image {
           childImageSharp {
             fixed(width: 400, height: 300) {

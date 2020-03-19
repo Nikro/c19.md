@@ -34,7 +34,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       path: node.frontmatter.path,
       component: simplePageTemplate,
       context: {
-        type: "markdown"
+        type: "markdown",
+        locale: node.frontmatter.path
       }
     })
   })
@@ -45,7 +46,9 @@ exports.onCreatePage = async ({ page, actions }) => {
     const { createPage, deletePage } = actions
     languages = ['ro', 'ru', 'en']
     languages.forEach(language => {
-      deletePage(page)
+      if (page.context.locale !== language) {
+        deletePage(page)
+      }
     })
   }
 }

@@ -53,7 +53,7 @@
     en: Chatbot
   description:
     ro: 'Chat automatizat cu BOT pentru a se auto-examena (ajutorul liniei verzi).'
-    ru: 'Чат бот для самостоятельной диагностики (помощь зелёной линии) eu hz cum sa traduc linia verde.'
+    ru: 'Чат бот для самостоятельной диагностики (помощь зелёной линии)'
     en: 'Automated chatbot with a BOT for auto-examination (help for green-line).'
   url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Chat+specialized+on+COVID-19+%5Bwith+BOT%5D
   trello: https://trello.com/c/dzbVo3tV/7-chat-specialized-on-covid-19-with-bot

@@ -4,17 +4,17 @@
   url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Machine+Learning+for+COVID-19+Diagnosis
   trello: https://trello.com/c/zqRoNuDb/2-machine-learning-for-covid-19-diagnosis-vladimir-s-diana
 
-- idea_help_in_need:
-  name: Help In Need
-  description: 'Ajutor celor ce au nevoie: mâncare, medicamente, etc.'
-  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Help+to+those+in+Need+-+food+/+medications
-  trello: https://trello.com/c/DWlq9dQD/3-help-to-those-in-need-food-medications-ruxanda
+- idea_geo_tag:
+  name: Geo-tagging for hospitals
+  description: 'Geo-tagging of active cases for hospitals'
+  url: https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform?usp=pp_url&entry.624201775=Geo-tagging+of+active+cases+for+hospitals
+  trello: https://trello.com/c/CDOHKyyK
 
 - idea_ventilator:
-  name: DIY Ventilator
-  description: 'Crearea unui apart de ventilare DIY (Hardware).'
-  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=DIY+Breathing+Ventilator+%5Bhardware%5D
-  trello: https://trello.com/c/OGxTf48O/5-diy-breathing-ventilator-hardware
+  name: Oxygen Concentrator [hardware]
+  description: 'înbogățirea cu oxigen a aerului inhalat.'
+  url: https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform?usp=pp_url&entry.624201775=%5BEtapa:+Ideea%5D+Oxygen+Concentrator++%5Bhardware%5D
+  trello: https://trello.com/c/OGxTf48O
 
 - idea_business:
   name: Support for Businesses
@@ -22,14 +22,8 @@
   url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Support+for+Businesses
   trello: https://trello.com/c/KfkEGgao/6-support-for-businesses
 
-- idea_elearning:
-  name: Distance Learning in MD
-  description: 'Ghid și instrumente pentru școli și profesori pentru a implementa practica de elearning.'
-  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Distance+Learning+-+guide+for+teachers+/+schools
-  trello: https://trello.com/c/8gnIgATu/8-distance-learning-guide-for-teachers-schools
-
 - idea_chat:
-  name: Chat specializat
+  name: Chatbot 
   description: 'Chat automatizat cu BOT pentru a se auto-examena (ajutorul liniei verzi).'
   url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Chat+specialized+on+COVID-19+%5Bwith+BOT%5D
   trello: https://trello.com/c/dzbVo3tV/7-chat-specialized-on-covid-19-with-bot
@@ -46,26 +40,8 @@
   url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Remote+Check+-Check-up+on+your+relative+(parents+/+grand-parents)
   trello: https://trello.com/c/9cvmCeGr/10-remote-check
 
-- idea_sceptic:
-  name: Fight Sceptics
-  description: 'Proiecte media și campanii menite combaterii scepticismului și dezinformării în public.'
-  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Combaterea+scepticismului
-  trello: https://trello.com/c/mtyvwwbg/11-combaterea-scepticismului
-
-- idea_robot:
-  name: Robot food / medication delivery
-  description: 'Crearea unui robot/mașinărie care să meargă în spitale/ locuri unde oamenii sunt în carantină și sa livreze mîncare și medicamente. [...]'
-  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Robot+food+/+medication+delivery
-  trello: https://trello.com/c/EciMNx0g/15-robot-food-medication-delivery
-
 - idea_greenzone:
   name: Zona Verde / Avoid them Maybe?
   description: 'O aplicație care să permită informarea utilizatorilor despre aglomerații în magazine, alimentari cu combustibil, pentru a micșora riscul infectării cu coronavirus.'
   url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Zona+Verde+/+Avoid+Them+Maybe?
   trello: https://trello.com/c/OMYccmM7/17-zona-verde-avoid-them-maybe
-
-- idea_prvlessons:
-  name: Lectii online pentru copii/adulti
-  description: 'In Moldova avem un numar de persoane venitul carora este bazat doar pe servicii pe care le presteaza pentru grupuri mici: fie asta lectii de yoga sau dans, lectii pentru copii in arta, muzica sau limbi straine [...]'
-  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Lec%C8%9Bii+online+pentru+Copii+/+Adul%C8%9Bi
-  trello: https://trello.com/c/OP1iAtUc/21-lectii-online-pentru-copii-adulti

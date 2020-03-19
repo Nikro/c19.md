@@ -32,7 +32,20 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
       path: node.frontmatter.path,
-      component: simplePageTemplate
+      component: simplePageTemplate,
+      context: {
+        type: "markdown"
+      }
     })
   })
+}
+
+exports.onCreatePage = async ({ page, actions }) => {
+  if (typeof page.context.type === "string" && page.context.type === "markdown" ) {
+    const { createPage, deletePage } = actions
+    languages = ['ro', 'ru', 'en']
+    languages.forEach(language => {
+      deletePage(page)
+    })
+  }
 }

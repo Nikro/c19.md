@@ -22,6 +22,10 @@ import ListItemText from '@material-ui/core/ListItemText'
 import ListItemAvatar from '@material-ui/core/ListItemAvatar'
 import Avatar from '@material-ui/core/Avatar'
 import Divider from '@material-ui/core/Divider'
+import CodeIcon from '@material-ui/icons/Code';
+import IconButton from '@material-ui/core/IconButton';
+import SpeakerNotesIcon from '@material-ui/icons/SpeakerNotes';
+import LinkIcon from '@material-ui/icons/Link';
 import {Link as LinkInt} from "gatsby-plugin-intl"
 import { useIntl } from "gatsby-plugin-intl"
 
@@ -75,19 +79,19 @@ export default ({ data }) => {
                 </CardContent>
                 <CardActions>
                   { card.url && (
-                    <Button size="small" color="primary" href={card.url}>
-                      Proiect
-                    </Button>
+                    <IconButton color="primary" href={card.url}>
+                      <LinkIcon />
+                    </IconButton>
                   )}
                   { card.github && (
-                    <Button size="small" color="primary" href={card.github}>
-                      Sursă
-                    </Button>
+                    <IconButton color="primary" href={card.github}>
+                      <CodeIcon />
+                    </IconButton>
                   )}
                   { card.trello && (
-                    <Button size="small" color="primary" href={card.trello}>
-                      Detalii
-                    </Button>
+                    <IconButton color="primary" href={card.trello}>
+                      <SpeakerNotesIcon />
+                    </IconButton>
                   )}
                 </CardActions>
 
@@ -157,9 +161,9 @@ export default ({ data }) => {
                   <Button size="small" color="primary" href={card.url}>
                     {intl.formatMessage({ id: "index.action_apply" })}
                   </Button>
-                  <Button size="small" color="primary" href={card.trello}>
-                    {intl.formatMessage({ id: "index.action_discussions" })}
-                  </Button>
+                  <IconButton color="primary" href={card.trello}>
+                    <SpeakerNotesIcon />
+                  </IconButton>
                 </CardActions>
               </Card>
             </Grid>
@@ -214,7 +218,7 @@ export const IndexPageQuery = graphql`
           image {
             childImageSharp {
               fixed(width: 100, height: 100) {
-                srct
+                src
               }
             }
           }

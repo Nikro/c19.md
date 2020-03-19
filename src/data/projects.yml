@@ -28,6 +28,25 @@
       type:  Project Manager
       
 
+- project_teacher_guide:
+  name:
+    ro: "Ghid online pentru profesori"
+    ru: "Пособие онлайн для учителя"
+    en: "Online Teacher Guide"
+  description:
+    ro: "Predatul la dinstanță -  ghid pentru profesori și școli"
+    ru: "Дистанционное / удалённое обучение - руководство для учителей и школ."
+    en: "Distance Learning - guide for teachers, schools."
+  apply: https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform?usp=pp_url&entry.624201775=%5BEtapa:+Ideea%5D+Distance+Learning+-+guide+for+teachers+/+schools
+  trello: https://trello.com/c/8gnIgATu
+  github:
+  requests:
+    -
+      type: Volunteers
+      subtype: Tech / Non-Tech
+    -
+      type: Developers
+
 - project_help_need:
   name:
     ro: "Help in Need"
@@ -73,26 +92,6 @@
       subtype: desig, animation, drawing,
     -
       type: Influencers
-
-
-- project_teacher_guide:
-  name:
-    ro: "Ghid online pentru profesori"
-    ru: "Пособие онлайн для учителя"
-    en: "Online Teacher Guide"
-  description:
-    ro: "Predatul la dinstanță -  ghid pentru profesori și școli"
-    ru: "Дистанционное / удалённое обучение - руководство для учителей и школ."
-    en: "Distance Learning - guide for teachers, schools."
-  apply: https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform?usp=pp_url&entry.624201775=%5BEtapa:+Ideea%5D+Distance+Learning+-+guide+for+teachers+/+schools
-  trello: https://trello.com/c/8gnIgATu
-  github:
-  requests:
-    -
-      type: Volunteers
-      subtype: Tech / Non-Tech
-    -
-      type: Developers
 
 - project_know:
   name:

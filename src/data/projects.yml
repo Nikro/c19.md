@@ -1,42 +1,69 @@
-- project_info:
-  name: "Info & Stats"
-  description: "Informații corecte despre COVID-19 în Moldova. Vizualizări și grafice."
-  url: https://code4moldova.github.io/
-  apply: https://docs.google.com/forms/d/e/1FAIpQLSfJ0gPCxz68tFe1TvoxNQ9dLXwlGTTzqeW9NQAHgvtjjyDBfQ/viewform
-  github: https://github.com/code4moldova/code4moldova.github.io
-  trello: https://trello.com/c/nnx9bkQ8/1-covupdate-knowvid19-or-centrul-de-informare-coronavirus-moldova-mihaela-dumitru-ion-iulian
+- project_bed_tracker:
+  name: "Available Beds Tracker"
+  description: "Available beds, for critical patients, tracker"
+  apply: https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform?usp=pp_url&entry.624201775=Available+Beds++Tracker,+for+critical+patients
+  trello: https://trello.com/c/swGNp1ok
   requests:
     -
       type: Mentor
       subtype: Tech / Non-Tech
 
     -
-      type: Mobile Dev
-      subtype: iOS / Android
-      image: platforms/ios_android.jpg
+      type: Backed Developers
+      
+    -
+      type: System Architect
+         
+    -
+      type: Frontend Developers
+         
+    -
+      type:  Project Manager
+      
 
-- project_how_do_you_feel:
-  name: "How do you Feel?"
-  description: "Aplicație mobilă ce face geolocare și întreabă o simplă întrebare: Cum te simți?"
-  apply: https://docs.google.com/forms/d/e/1FAIpQLSftv1umUoACwTNjU3SqZ_A8Ey6ri4fgQt3uZH1zg28PREjb6A/viewform
-  trello: https://trello.com/c/2EaThk5N/4-how-do-you-feel-geo-health-tracker
+- project_help_need:
+  name: "Help in Need"
+  description: "Help to those in Need - food / medications"
+  apply: https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform?usp=pp_url&entry.624201775=Help+to+those+in+Need+-+food+/+medications
+  trello: https://trello.com/c/DWlq9dQD
   requests:
     -
       type: Mentor
       subtype: Tech / Non-Tech
 
     -
-      type: Mobile Dev
-      subtype: iOS / Android
-      image: platforms/ios_android.jpg
+      type: Volunteers
 
-- c19.md:
-  name: c19.md
-  description: "Platforma dată - colecție de instrumente digitale Open Source în contextul unei țări."
-  github: https://github.com/Nikro/c19.md
-  apply: https://docs.google.com/forms/d/e/1FAIpQLSenuQDgeFCadKNvndVgShMAhYXtmmsKOhhzdpKenChs-TOcpA/viewform
+- project_anti_sceptic:
+  name: Fight Sceptics
+  description: "Combaterea scepticismului - Fight Sceptics"
+  apply: https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform?usp=pp_url&entry.624201775=Combaterea+scepticismului
+  trello: https://trello.com/c/mtyvwwbg
   requests:
     -
-      type: Web Developer
-      subtype: Gatsby
-      image: platforms/gatsby.png
+      type: Volunteers
+    -
+      type: Developers
+    -
+      type: PR
+    -
+      type: Creatives
+      subtype: desig, animation, drawing,
+    -
+      type: Influencers
+      
+- project_teacher_guide:
+  name: Online Teacher Guide
+  description: "Distance Learning - guide for teachers, schools"
+  apply: https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform?usp=pp_url&entry.624201775=%5BEtapa:+Ideea%5D+Distance+Learning+-+guide+for+teachers+/+schools
+  trello: https://trello.com/c/8gnIgATu
+  requests:
+    -
+      type: Volunteers
+      subtype: Tech / Non-Tech
+    -
+      type: Developers
+
+      
+      
+

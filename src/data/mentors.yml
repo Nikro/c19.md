@@ -1,40 +1,88 @@
 -
   name: Traian Chivriga
-  description: "Entrepreneur, community builder and lean startup enthusiast. Founded Vintage, an art eCommerce platform."
+  description:
+    ro: "Antreprenor, community builder și lean startup enthusiast. Fondator de Vintage, platform e-commerce de artă."
+    ru: "Предприниматель, создатель сообществ и энтузиаст lean startup. Основал Vintage, платформу eCommerce для произведений искусства."
+    en: "Entrepreneur, community builder and lean startup enthusiast. Founded Vintage, an art eCommerce platform."
   image: mentors/traian_c.jpg
 
 -
   name: Artur Gurău
-  description: "He is the CEO of Granat Digital Agency and the President of the Digital Communication Network."
+  description:
+    ro: "CEO la Granat Digital Agency și Președintele la Digital Communication Network."
+    ru: "CEO Granat Digital Agency и президент Digital Communication Network."
+    en: "He is the CEO of Granat Digital Agency and the President of the Digital Communication Network."
   image: mentors/artur_g.jpg
 
 -
   name: Vitalie Eșanu
-  description: "CTO la Privesc.Eu, VoteMe.App"
+  description:
+    ro: "CTO la Privesc.Eu, VoteMe.App"
+    ru: "CTO - Privesc.Eu, VoteMe.App"
+    en: "CTO at Privesc.Eu, VoteMe.App"
   image: mentors/vitalie_e.jpg
 
 -
   name: Roman Chirca
-  description: "Product Owner at Pentalog. Public Speaking Trainer."
+  description:
+    ro: "Product Owner la Pentalog. Public Speaking Trainer."
+    ru: "Product Owner в Pentalog. Тренер публичных выступлений"
+    en: "Product Owner at Pentalog. Public Speaking Trainer."
   image: mentors/gluck.jpg
 
 -
   name: Alexandru Lebedev
-  description: "Partner at XY Partners. CEO & Founder at diez.md"
+  description:
+    ro: "Partner la XY Partners. CEO & Founder la diez.md"
+    ru: "Партнер в XY Partners. CEO и основатель diez.md"
+    en: "Partner at XY Partners. CEO & Founder at diez.md"
   image: mentors/alex_l.jpg
 
 -
   name: Victor Bujoreanu
-  description: "Product Application Engineer Materialise, Founder Atelier 99."
+  description:
+    ro: "Product Application Engineer Materialise, Fondator Atelier 99."
+    ru: "Инжинер Product Application в Materialise, основатель Atelier 99"
+    en: "Product Application Engineer Materialise, Founder Atelier 99."
   image: mentors/victor_b.jpg
 
 -
   name: Ana Gherciu
-  description: "PR ALTFilm Editor-in-Chief Moldova.org"
+  description:
+    ro: "PR ALTFilm Editor-in-Chief Moldova.org"
+    ru: "PR в ALTFilm, Главный редактор Moldova.org"
+    en: "PR ALTFilm Editor-in-Chief Moldova.org"
   image: mentors/ana_g.jpg
 
 -
   name: Petru Dodu
-  description: "Fondator la Dr. Tzoi. Former medic rezident at IMSP AMT Botanica CMF 3."
+  description:
+    ro: "Fondator la Dr. Tzoi. Fost medic rezident la IMSP AMT Botanica CMF 3."
+    ru: "Основатель Dr. Tzoi. Бывший постоянный врач в IMSP AMT Botanica CMF 3."
+    en: "Founder of Dr. Tzoi. Former medic rezident at IMSP AMT Botanica CMF 3."
   image: mentors/petru_d.jpg
+  
+-
+  name: Alex Cucer
+  description:
+    ro: "Software Architecture, Cloud, Product Advisory and Software Development Advisory and Hands-on."
+    ru: "Software Architecture, Cloud, Product Advisory and Software Development Advisory and Hands-on."
+    en: "Software Architecture, Cloud, Product Advisory and Software Development Advisory and Hands-on."
+  image: mentors/alex_c.png
+  
+-
+  name: Lilia Onea
+  description:
+    ro: "Director MedNews.md și reprezentant al Centrului de Informare și Comunicare în Sănătate"
+    ru: "Директор MedNews.md и представитель Информационно-коммуникационного центра здравоохранения"
+    en: "CEO of MedNews.md representative of - Centrului de Informare și Comunicare în Sănătate"
+  image: mentors/lilia_o.jpg
+   
+-
+  name: Mihaela Didu
+  description:
+    ro: "Clinical Research - experiență adîncă în Oncologie, Neurologie, Sistemul Nervos Central și Inflammation therapeutic areas"
+    ru: "Клинические исследования - большой опыт в области онкологии, неврологии, центральной нервной системы и воспалений"
+    en: "Clinical Research - extensive experience in Oncology, Neurology, Central Nervous System and Inflammation therapeutic areas"
+  image: mentors/mihaela_d.jpeg
 

@@ -22,6 +22,12 @@ import ListItemText from '@material-ui/core/ListItemText'
 import ListItemAvatar from '@material-ui/core/ListItemAvatar'
 import Avatar from '@material-ui/core/Avatar'
 import Divider from '@material-ui/core/Divider'
+import CodeIcon from '@material-ui/icons/Code';
+import IconButton from '@material-ui/core/IconButton';
+import SpeakerNotesIcon from '@material-ui/icons/SpeakerNotes';
+import LinkIcon from '@material-ui/icons/Link';
+import {Link as LinkInt} from "gatsby-plugin-intl"
+import { useIntl } from "gatsby-plugin-intl"
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -45,86 +51,90 @@ const useStyles = makeStyles(theme => ({
 
 export default ({ data }) => {
   const classes = useStyles()
+  const intl = useIntl()
 
   const ideaCards = data.allIdeasYaml.nodes
   const projectsCards = data.allProjectsYaml.nodes
 
   return(
     <Layout>
-      <SEO title="Lista de proiecte" />
+      <SEO
+        title={intl.formatMessage({ id: "index.title" })}
+        lang={intl.locale}
+      />
 
       <Container className={classes.cardGrid} maxWidth="md" style={{marginTop: `50px`}}>
-        <Typography align="center" className={classes.headers}><h1>Proiecte în dezvoltare</h1></Typography>
+        <Typography align="center" className={classes.headers} component="span"><h1>{intl.formatMessage({ id: "index.title" })}</h1></Typography>
         <Grid container spacing={4}>
           {projectsCards.map(card => (
-            <Grid item key={card} xs={12} sm={6} md={4}>
+            <Grid item key={card} xs={12} sm={6} md={4} key={card.id}>
               <Card>
                 <CardContent className={classes.cardContent}>
                   <Typography gutterBottom variant="h5" component="h2">
-                    { card.name }
+                    { card.name[intl.locale] }
                   </Typography>
                   <Typography variant="body2" component="p">
-                    { card.description }
+                    { card.description[intl.locale] }
                   </Typography>
                 </CardContent>
                 <CardActions>
                   { card.url && (
-                    <Button size="small" color="primary" href={card.url}>
-                      Proiect
-                    </Button>
+                    <IconButton color="primary" href={card.url}>
+                      <LinkIcon />
+                    </IconButton>
                   )}
                   { card.github && (
-                    <Button size="small" color="primary" href={card.github}>
-                      Sursă
-                    </Button>
+                    <IconButton color="primary" href={card.github}>
+                      <CodeIcon />
+                    </IconButton>
                   )}
                   { card.trello && (
-                    <Button size="small" color="primary" href={card.trello}>
-                      Detalii
-                    </Button>
+                    <IconButton color="primary" href={card.trello}>
+                      <SpeakerNotesIcon />
+                    </IconButton>
                   )}
                 </CardActions>
 
-
-                <ExpansionPanel>
-                  <ExpansionPanelSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel2a-content"
-                    id="panel2a-header"
-                  >
-                    <Typography variant="caption">Avem nevoie de:</Typography>
-                  </ExpansionPanelSummary>
-                  <ExpansionPanelDetails>
-                    <List className={classes.root} dense>
-                      {card.requests.map((requestItem, index) => (
-                        <React.Fragment>
-                          <ListItem>
-                            <ListItemAvatar>
-                              {(requestItem.image) ? (
-                                <Avatar alt={requestItem.subtype} src={requestItem.image.childImageSharp.fixed.src} />
-                              ) : (
-                                <Avatar alt={requestItem.subtype} />
-                              )}
-                            </ListItemAvatar>
-                            <ListItemText
-                              primary={requestItem.type}
-                              secondary={requestItem.subtype}
-                            />
-                          </ListItem>
-                          { index !== (card.requests.length -1) && (
-                            <Divider variant="inset" component="li" />
-                          )}
-                        </React.Fragment>
-                      ))}
-                      <ListItem>
-                        <Button variant="contained" color="primary" fullWidth href={card.apply}>
-                          Aplică!
-                        </Button>
-                      </ListItem>
-                    </List>
-                  </ExpansionPanelDetails>
-                </ExpansionPanel>
-
+                { card.requests && (
+                  <ExpansionPanel>
+                    <ExpansionPanelSummary
+                      expandIcon={<ExpandMoreIcon />}
+                      aria-controls="panel2a-content"
+                      id="panel2a-header"
+                    >
+                      <Typography variant="caption">{intl.formatMessage({ id: "index.action_info_need" })}</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails>
+                      <List className={classes.root} dense>
+                        {card.requests.map((requestItem, index) => (
+                          <React.Fragment key={index}>
+                            <ListItem>
+                              <ListItemAvatar>
+                                {(requestItem.image) ? (
+                                  <Avatar alt={requestItem.subtype} src={requestItem.image.childImageSharp.fixed.src} />
+                                ) : (
+                                  <Avatar alt={requestItem.subtype} />
+                                )}
+                              </ListItemAvatar>
+                              <ListItemText
+                                primary={requestItem.type}
+                                secondary={requestItem.subtype}
+                              />
+                            </ListItem>
+                            { index !== (card.requests.length -1) && (
+                              <Divider variant="inset" component="li" />
+                            )}
+                          </React.Fragment>
+                        ))}
+                        <ListItem>
+                          <Button variant="contained" color="primary" fullWidth href={card.apply}>
+                            {intl.formatMessage({ id: "index.action_apply_team" })}
+                          </Button>
+                        </ListItem>
+                      </List>
+                    </ExpansionPanelDetails>
+                  </ExpansionPanel>
+                )}
               </Card>
             </Grid>
           ))}
@@ -132,26 +142,28 @@ export default ({ data }) => {
       </Container>
 
       <Container className={classes.cardGrid} maxWidth="md" style={{marginTop: `30px`}}>
-        <Typography align="center" className={classes.headers}><h1>Idei propuse</h1></Typography>
+        <Typography align="center" className={classes.headers} component="span"><h1>
+          {intl.formatMessage({ id: "index.heading_second" })}
+        </h1></Typography>
         <Grid container spacing={4} alignItems="stretch">
           {ideaCards.map(card => (
-            <Grid item key={card} xs={12} sm={6} md={4}>
+            <Grid item key={card} xs={12} sm={6} md={4} key={card.id}>
               <Card className={classes.card}>
                 <CardContent className={classes.cardContent}>
                   <Typography gutterBottom variant="h5" component="h2">
-                    { card.name }
+                    { card.name[intl.locale] }
                   </Typography>
                   <Typography variant="body2" component="p">
-                    { card.description }
+                    { card.description[intl.locale] }
                   </Typography>
                 </CardContent>
                 <CardActions>
                   <Button size="small" color="primary" href={card.url}>
-                    Vreau să mă implic
+                    {intl.formatMessage({ id: "index.action_apply" })}
                   </Button>
-                  <Button size="small" color="primary" href={card.trello}>
-                    Discuții
-                  </Button>
+                  <IconButton color="primary" href={card.trello}>
+                    <SpeakerNotesIcon />
+                  </IconButton>
                 </CardActions>
               </Card>
             </Grid>
@@ -167,8 +179,16 @@ export const IndexPageQuery = graphql`
   query IdeasProjects {
     allIdeasYaml {
       nodes {
-        name
-        description
+        name {
+          ro
+          ru
+          en
+        }
+        description {
+          ro
+          ru
+          en
+        }
         id
         url
         trello
@@ -177,8 +197,16 @@ export const IndexPageQuery = graphql`
     }
     allProjectsYaml {
       nodes {
-        name
-        description
+        name {
+          ro
+          ru
+          en
+        }
+        description {
+          ro
+          ru
+          en  
+        }
         github
         id
         url

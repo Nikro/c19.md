@@ -1,71 +1,83 @@
 - idea_ml:
-  name: ML Diagnostics
-  description: 'Machine Learning (inteligența artificială) pentru identificarea virusului COVID-19.'
+  name:
+    ro: Diagnistică cu Inteligența Artificială
+    ru: ML Diagnostics
+    en: ML Diagnostics
+  description:
+    ro: 'Machine Learning (inteligența artificială) pentru identificarea virusului COVID-19.'
+    ru: 'Машинное обучение/Нейронная сеть для идентификации вируса COVID-19.'
+    en: 'Machine Learning (inteligența artificială) pentru identificarea virusului COVID-19.'
   url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Machine+Learning+for+COVID-19+Diagnosis
   trello: https://trello.com/c/zqRoNuDb/2-machine-learning-for-covid-19-diagnosis-vladimir-s-diana
 
-- idea_help_in_need:
-  name: Help In Need
-  description: 'Ajutor celor ce au nevoie: mâncare, medicamente, etc.'
-  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Help+to+those+in+Need+-+food+/+medications
-  trello: https://trello.com/c/DWlq9dQD/3-help-to-those-in-need-food-medications-ruxanda
+- idea_geo_tag:
+  name:
+    ro: Geo-tagging for hospitals
+    ru: Geo-tagging for hospitals
+    en: Geo-tagging for hospitals
+  description:
+    ro: 'Geo-tagging of active cases for hospitals'
+    ru: 'Geo-tagging of active cases for hospitals'
+    en: 'Geo-tagging of active cases for hospitals'
+  url: https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform?usp=pp_url&entry.624201775=Geo-tagging+of+active+cases+for+hospitals
+  trello: https://trello.com/c/CDOHKyyK
 
 - idea_ventilator:
-  name: DIY Ventilator
-  description: 'Crearea unui apart de ventilare DIY (Hardware).'
-  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=DIY+Breathing+Ventilator+%5Bhardware%5D
-  trello: https://trello.com/c/OGxTf48O/5-diy-breathing-ventilator-hardware
+  name:
+    ro: Oxygen Concentrator [hardware]
+    ru: Oxygen Concentrator [hardware]
+    en: Oxygen Concentrator [hardware]
+  description:
+    ro: 'Îmbogățirea cu oxigen a aerului inhalat.'
+    ru: 'Обогащение кислородом вдыхаемого воздуха.'
+    en: 'Oxygen enrichment of inhaled air.'
+  url: https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform?usp=pp_url&entry.624201775=%5BEtapa:+Ideea%5D+Oxygen+Concentrator++%5Bhardware%5D
+  trello: https://trello.com/c/OGxTf48O
 
 - idea_business:
-  name: Support for Businesses
-  description: 'Ajutor, sfaturi, ghiduri pentru antreprenori.'
+  name:
+    ro: Suport pentru Întreprinderi / Antreprenori
+    ru: Поддержка для бизнеса / Поддержка предприятий
+    en: Support for Businesses
+  description:
+    ro: 'Ajutor, sfaturi, ghiduri pentru antreprenori.'
+    ru: 'Помощь, советы, гиды/руководство для предпринимателей/бизнесменов.'
+    en: 'Help, advice, guides for business.'
   url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Support+for+Businesses
   trello: https://trello.com/c/KfkEGgao/6-support-for-businesses
 
-- idea_elearning:
-  name: Distance Learning in MD
-  description: 'Ghid și instrumente pentru școli și profesori pentru a implementa practica de elearning.'
-  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Distance+Learning+-+guide+for+teachers+/+schools
-  trello: https://trello.com/c/8gnIgATu/8-distance-learning-guide-for-teachers-schools
-
 - idea_chat:
-  name: Chat specializat
-  description: 'Chat automatizat cu BOT pentru a se auto-examena (ajutorul liniei verzi).'
+  name:
+    ro: Chatbot
+    ru: Чат
+    en: Chatbot
+  description:
+    ro: 'Chat automatizat cu BOT pentru a se auto-examena (ajutorul liniei verzi).'
+    ru: 'Чат бот для самостоятельной диагностики (помощь зелёной линии) eu hz cum sa traduc linia verde.'
+    en: 'Automated chatbot with a BOT for auto-examination (help for green-line).'
   url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Chat+specialized+on+COVID-19+%5Bwith+BOT%5D
   trello: https://trello.com/c/dzbVo3tV/7-chat-specialized-on-covid-19-with-bot
 
-- idea_selfcheck:
-  name: Self-check App
-  description: 'Aplicație unde poți loga măsurări de temperatură, interacțiuni cu prieteni / rude, etc.'
-  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=COVID-19+Self-check+Mobile+App+%5BTemp+%2B+Interactions%5D
-  trello: https://trello.com/c/EvTqD8B1/9-covid-19-self-check-mobile-app-temp-interactions
-
 - idea_remotecheck:
-  name: Remote Check
-  description: 'Platformă cu cereri de verificare stării de sănătate a prietenilor și rudelor ce nu pot fi contactați.'
+  name:
+    ro: Verificare la distanță
+    ru: Удаленная проверка
+    en: Remote Check
+  description:
+    ro: 'Platformă cu cereri de verificare stării de sănătate a prietenilor și rudelor ce nu pot fi contactați.'
+    ru: 'Платформа с запросами для проверки состояния здоровья друзей и родственников, с которыми невозможно связаться / запрещенно связыватся / в карантине.'
+    en: 'Platform with requests for health checks of friends and relatives that cannot be reached.'
   url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Remote+Check+-Check-up+on+your+relative+(parents+/+grand-parents)
   trello: https://trello.com/c/9cvmCeGr/10-remote-check
 
-- idea_sceptic:
-  name: Fight Sceptics
-  description: 'Proiecte media și campanii menite combaterii scepticismului și dezinformării în public.'
-  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Combaterea+scepticismului
-  trello: https://trello.com/c/mtyvwwbg/11-combaterea-scepticismului
-
-- idea_robot:
-  name: Robot food / medication delivery
-  description: 'Crearea unui robot/mașinărie care să meargă în spitale/ locuri unde oamenii sunt în carantină și sa livreze mîncare și medicamente. [...]'
-  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Robot+food+/+medication+delivery
-  trello: https://trello.com/c/EciMNx0g/15-robot-food-medication-delivery
-
 - idea_greenzone:
-  name: Zona Verde / Avoid them Maybe?
-  description: 'O aplicație care să permită informarea utilizatorilor despre aglomerații în magazine, alimentari cu combustibil, pentru a micșora riscul infectării cu coronavirus.'
+  name:
+    ro: Zona Verde / Avoid them Maybe?
+    ru: Зелёная Зона / Может лучше избегать их?
+    en: Green Zone / Avoid them Maybe?
+  description:
+    ro: 'O aplicație care să permită informarea utilizatorilor despre aglomerații în magazine, alimentari cu combustibil, pentru a micșora riscul infectării cu coronavirus.'
+    ru: 'Приложение, которое позволяет пользователям получать информацию о скоплениях людей в магазинах, магазинах топлива, чтобы уменьшить риск заражения коронавирусом.'
+    en: 'An application that would inform users about queues and gatherings of people in shops, supermarkets and other places.'
   url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Zona+Verde+/+Avoid+Them+Maybe?
   trello: https://trello.com/c/OMYccmM7/17-zona-verde-avoid-them-maybe
-
-- idea_prvlessons:
-  name: Lectii online pentru copii/adulti
-  description: 'In Moldova avem un numar de persoane venitul carora este bazat doar pe servicii pe care le presteaza pentru grupuri mici: fie asta lectii de yoga sau dans, lectii pentru copii in arta, muzica sau limbi straine [...]'
-  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Lec%C8%9Bii+online+pentru+Copii+/+Adul%C8%9Bi
-  trello: https://trello.com/c/OP1iAtUc/21-lectii-online-pentru-copii-adulti

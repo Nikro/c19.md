@@ -1,38 +1,132 @@
+- project_bed_tracker:
+  name:
+    ro: "Tracker de paturi disponibile"
+    ru: "Отслеживание доступных кроватей"
+    en: "Available Beds Tracker"
+  description:
+    ro: "Tracker de paturi disponibile, pentru pacienți în starea critică."
+    ru: "Отслеживание доступных кроватей, для критических пациентов"
+    en: "Tracker of available beds, for critical patients."
+  apply: https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform?usp=pp_url&entry.624201775=Available+Beds++Tracker,+for+critical+patients
+  trello: https://trello.com/c/swGNp1ok
+  github:
+  requests:
+    -
+      type: Mentor
+      subtype: Tech / Non-Tech
+
+    -
+      type: Backed Developers
+      
+    -
+      type: System Architect
+         
+    -
+      type: Frontend Developers
+         
+    -
+      type:  Project Manager
+      
+
+- project_teacher_guide:
+  name:
+    ro: "Ghid online pentru profesori"
+    ru: "Пособие онлайн для учителя"
+    en: "Online Teacher Guide"
+  description:
+    ro: "Predatul la dinstanță -  ghid pentru profesori și școli"
+    ru: "Дистанционное / удалённое обучение - руководство для учителей и школ."
+    en: "Distance Learning - guide for teachers, schools."
+  apply: https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform?usp=pp_url&entry.624201775=%5BEtapa:+Ideea%5D+Distance+Learning+-+guide+for+teachers+/+schools
+  trello: https://trello.com/c/8gnIgATu
+  github:
+  requests:
+    -
+      type: Volunteers
+      subtype: Tech / Non-Tech
+    -
+      type: Developers
+
+- project_help_need:
+  name:
+    ro: "Help in Need"
+    ru: "Помощь нуждающимися"
+    en: "Help in Need"
+  description:
+    ro: "Help to those in Need - food / medications"
+    ru: "Помощь нуждающимися - еда / лекарства"
+    en: "Help to those in Need - food / medications"
+  apply: https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform?usp=pp_url&entry.624201775=Help+to+those+in+Need+-+food+/+medications
+  trello: https://trello.com/c/DWlq9dQD
+  github:
+  requests:
+    -
+      type: Mentor
+      subtype: Tech / Non-Tech
+
+    -
+      type: Volunteers
+
+
+- project_anti_sceptic:
+  name:
+    ro: Fight Sceptics
+    ru: Fight Sceptics
+    en: Fight Sceptics
+  description:
+    ro: "Combaterea scepticismului"
+    ru: "Борьба со скептицизмом"
+    en: "Fight Sceptics"
+  apply: https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform?usp=pp_url&entry.624201775=Combaterea+scepticismului
+  trello: https://trello.com/c/mtyvwwbg
+  github:
+  requests:
+    -
+      type: Volunteers
+    -
+      type: Developers
+    -
+      type: PR
+    -
+      type: Creatives
+      subtype: desig, animation, drawing,
+    -
+      type: Influencers
+
+- project_know:
+  name:
+    ro: "KnowVid19"
+    ru: "KnowVid19"
+    en: "KnowVid19"
+  description:
+    ro: "Resurs veridic ce lupta cu dezinformarea, ignoranța și zvonurile"
+    ru: "Informații corecte despre COVID-19 în Moldova. Vizualizări și grafice."
+    en: "Online resource that fights disinformation, ignorance and fakes"
+  github:
+  trello: https://trello.com/c/v7NogCDb/31-knowvid19
+
 - project_info:
-  name: "Info & Stats"
-  description: "Informații corecte despre COVID-19 în Moldova. Vizualizări și grafice."
-  url: https://code4moldova.github.io/
-  apply: https://docs.google.com/forms/d/e/1FAIpQLSfJ0gPCxz68tFe1TvoxNQ9dLXwlGTTzqeW9NQAHgvtjjyDBfQ/viewform
+  name:
+    ro: "Info și Stats"
+    ru: "Info & Stats"
+    en: "Info & Stats"
+  description:
+    ro: "Informații corecte despre COVID-19 în Moldova. Vizualizări și grafice."
+    ru: "Информация о COVID-19 в Молдове. Визуалы и графики."
+    en: "Information about COVID-19 in Moldova. Visuals and charts."
+  url: https://info.c19.md/
   github: https://github.com/code4moldova/code4moldova.github.io
-  trello: https://trello.com/c/nnx9bkQ8/1-covupdate-knowvid19-or-centrul-de-informare-coronavirus-moldova-mihaela-dumitru-ion-iulian
-  requests:
-    -
-      type: Mentor
-      subtype: Tech / Non-Tech
 
-    -
-      type: Mobile Dev
-      subtype: iOS / Android
-      image: platforms/ios_android.jpg
-
-- project_how_do_you_feel:
-  name: "How do you Feel?"
-  description: "Aplicație mobilă ce face geolocare și întreabă o simplă întrebare: Cum te simți?"
-  apply: https://docs.google.com/forms/d/e/1FAIpQLSftv1umUoACwTNjU3SqZ_A8Ey6ri4fgQt3uZH1zg28PREjb6A/viewform
-  trello: https://trello.com/c/2EaThk5N/4-how-do-you-feel-geo-health-tracker
-  requests:
-    -
-      type: Mentor
-      subtype: Tech / Non-Tech
-
-    -
-      type: Mobile Dev
-      subtype: iOS / Android
-      image: platforms/ios_android.jpg
 
 - c19.md:
-  name: c19.md
-  description: "Platforma dată - colecție de instrumente digitale Open Source în contextul unei țări."
+  name:
+    ro: c19.md
+    ru: c19.md
+    en: c19.md
+  description:
+    ro: "Platforma dată - colecție de instrumente digitale Open Source în contextul unei țări."
+    ru: "Сборник цифровых инструментов с открытым исходным кодом в контексте страны"
+    en: "Current platform - collection of Open Source projects in the context of a country."
   github: https://github.com/Nikro/c19.md
   apply: https://docs.google.com/forms/d/e/1FAIpQLSenuQDgeFCadKNvndVgShMAhYXtmmsKOhhzdpKenChs-TOcpA/viewform
   requests:

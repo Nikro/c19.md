@@ -1,0 +1,38 @@
+{
+  "header": "Tools against COVID-19 in Moldova",
+  "title": "Open Source tools in the context of Moldova",
+  "intro": "Join our community and let’s find solutions together for informing, preventing and improving the situation caused by COVID-19, with the help of the modern technology available to us today!",
+  "language": "English",
+  "actions": {
+    "add_project": "Add a new project / idea",
+    "apply_hack": "Apply for the next hackathon"
+  },
+  "menu": {
+    "projects": "Projects",
+    "mentors": "Mentors",
+    "hackathon": "Hackathon",
+    "resources": "Resources",
+    "about": "About the Project"
+  },
+  "contact": {
+    "intro": "Contact us",
+    "team": "Contact the team c19.md",
+    "tech": "Contact the technical team",
+    "fb": "Facebook group",
+    "slack": "Slack discussions"
+  },
+  "mentors": {
+    "title": "Mentors"
+  },
+  "index": {
+    "title": "Projects in development",
+    "seo_title": "Projects against COVID-19 - OpenSource",
+    "heading_second": "Submitted Ideas",
+    "action_info_need": "We need:",
+    "action_apply": "I want to join",
+    "action_apply_team": "Apply!"
+  },
+  "footer": {
+    "copyright": "Created by a group of volunteers"
+  }
+}

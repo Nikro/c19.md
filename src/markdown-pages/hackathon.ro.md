@@ -11,13 +11,15 @@ Bună! Bine ai venit la **Hack the Virus** hackathon. Noi vom lucra împreună �
 
 Dacă încă nu ai aplicat, alege un proiect pe [pagina de start](https://c19.md) și aplică, sau crează o idee nouă. 
 
-Vezi pagina de Resurse pentru a vedea ce instrumente poți folosi pentru a lucra mai eficient în contextul acestui hackathon.
+Vezi pagina de [Resurse](https://c19.md/resources) pentru a citi articole utile ce pot ajuta în implementarea soluțiilor în cadrul acestui hackathon.
 
 ## Live
 
 Noi vom actualiza această pagină cu LIVE stream de hackathon. Dar până atunci, puteți lucra mai productiv cu acest live.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 
 ## Agenda
 
@@ -42,3 +44,13 @@ Noi vom actualiza această pagină cu LIVE stream de hackathon. Dar până atunc
 - 15:00 - Cowsayshow - Podcast working progress
 - 18:00 - Final Live-stream - pitching project updates.
 - 21:00 - Party! Online, duh! (beer, games, etc.)
+
+PS. Încă nu ești pe Slack? Aici este [Invitație la Slack](https://join.slack.com/t/c19md/shared_invite/zt-crwaj52o-t7WS8QBy2cM78eYd4fEhxw).
+
+## Susținători
+
+Hackathon c19.md este implementat / organizat / realizată cu sprijinul Agenției Statelor Unite pentru Dezvoltare Internațională (USAID) și Suediei în cadrul Proiectului ”Tekwill”.
+
+![Tekwill](https://c19.md/images/tekwill.jpg)
+![USAID](https://c19.md/images/usaid.jpg)
+![SWEDEN](https://c19.md/images/sweden.jpg)

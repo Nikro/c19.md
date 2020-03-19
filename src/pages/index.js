@@ -55,15 +55,15 @@ export default ({ data }) => {
   return(
     <Layout>
       <SEO
-        title="Lista de proiecte"
+        title={intl.formatMessage({ id: "index.title" })}
         lang={intl.locale}
       />
 
       <Container className={classes.cardGrid} maxWidth="md" style={{marginTop: `50px`}}>
-        <Typography align="center" className={classes.headers}><h1>Proiecte în dezvoltare</h1></Typography>
+        <Typography align="center" className={classes.headers} component="span"><h1>{intl.formatMessage({ id: "index.title" })}</h1></Typography>
         <Grid container spacing={4}>
           {projectsCards.map(card => (
-            <Grid item key={card} xs={12} sm={6} md={4}>
+            <Grid item key={card} xs={12} sm={6} md={4} key={card.id}>
               <Card>
                 <CardContent className={classes.cardContent}>
                   <Typography gutterBottom variant="h5" component="h2">
@@ -98,12 +98,12 @@ export default ({ data }) => {
                     aria-controls="panel2a-content"
                     id="panel2a-header"
                   >
-                    <Typography variant="caption">Avem nevoie de:</Typography>
+                    <Typography variant="caption">{intl.formatMessage({ id: "index.action_info_need" })}</Typography>
                   </ExpansionPanelSummary>
                   <ExpansionPanelDetails>
                     <List className={classes.root} dense>
                       {card.requests.map((requestItem, index) => (
-                        <React.Fragment>
+                        <React.Fragment key={index}>
                           <ListItem>
                             <ListItemAvatar>
                               {(requestItem.image) ? (
@@ -124,7 +124,7 @@ export default ({ data }) => {
                       ))}
                       <ListItem>
                         <Button variant="contained" color="primary" fullWidth href={card.apply}>
-                          Aplică!
+                          {intl.formatMessage({ id: "index.action_apply_team" })}
                         </Button>
                       </ListItem>
                     </List>
@@ -138,10 +138,12 @@ export default ({ data }) => {
       </Container>
 
       <Container className={classes.cardGrid} maxWidth="md" style={{marginTop: `30px`}}>
-        <Typography align="center" className={classes.headers}><h1>Idei propuse</h1></Typography>
+        <Typography align="center" className={classes.headers} component="span"><h1>
+          {intl.formatMessage({ id: "index.heading_second" })}
+        </h1></Typography>
         <Grid container spacing={4} alignItems="stretch">
           {ideaCards.map(card => (
-            <Grid item key={card} xs={12} sm={6} md={4}>
+            <Grid item key={card} xs={12} sm={6} md={4} key={card.id}>
               <Card className={classes.card}>
                 <CardContent className={classes.cardContent}>
                   <Typography gutterBottom variant="h5" component="h2">
@@ -153,10 +155,10 @@ export default ({ data }) => {
                 </CardContent>
                 <CardActions>
                   <Button size="small" color="primary" href={card.url}>
-                    Vreau să mă implic
+                    {intl.formatMessage({ id: "index.action_apply" })}
                   </Button>
                   <Button size="small" color="primary" href={card.trello}>
-                    Discuții
+                    {intl.formatMessage({ id: "index.action_discussions" })}
                   </Button>
                 </CardActions>
               </Card>

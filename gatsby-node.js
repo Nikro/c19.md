@@ -46,7 +46,7 @@ exports.onCreatePage = async ({ page, actions }) => {
     const { createPage, deletePage } = actions
     languages = ['ro', 'ru', 'en']
     languages.forEach(language => {
-      if (page.context.locale !== language) {
+      if (page.context.intl.language === page.context.locale) {
         deletePage(page)
       }
     })

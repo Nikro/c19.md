@@ -1,39 +1,39 @@
 {
-  "header": "Instrumente contra COVID-19 în Moldova",
-  "title": "Instrumente Open Source in contextul Moldovei",
-  "intro": "Alătură-te și tu comunității noastre și hai împreună să găsim soluții pentru informarea, prevenirea și îmbunătățirea situației critice cauzate de COVID-19, cu ajutorul tehnologiilor moderne disponibile azi!",
-  "language": "Română",
+  "header": "Tools against COVID-19 in Moldova",
+  "title": "Open Source tools in the context of Moldova",
+  "intro": "Join our community and let’s find solutions together for informing, preventing and improving the situation caused by COVID-19, with the help of the modern technology available to us today!",
+  "language": "English",
   "actions": {
-    "add_project": "Adaugă proiect / idee nouă",
-    "apply_hack": "Aplică la următorul Hackathon"
+    "add_project": "Add a new project / idea",
+    "apply_hack": "Apply for the next hackathon"
   },
   "menu": {
-    "projects": "Proiecte",
-    "mentors": "Mentori",
+    "projects": "Projects",
+    "mentors": "Mentors",
     "hackathon": "Hackathon",
-    "resources": "Resurse Utile",
-    "about": "Despre Noi"
+    "resources": "Resourses",
+    "about": "About the Project"
   },
   "contact": {
-    "intro": "Informații de contact",
-    "team": "Contact echipa de c19.md",
-    "tech": "Contact echipa tehnică",
-    "fb": "Grupa pe Facebook",
-    "slack": "Discuții Slack (Invitație)"
+    "intro": "COntact us",
+    "team": "Contact the team c19.md",
+    "tech": "Contact the technical team",
+    "fb": "Facebook group",
+    "slack": "Slack discussions"
   },
   "mentors": {
-    "title": "Mentori"
+    "title": "Mentors"
   },
   "index": {
-    "title": "Proiecte în dezvoltare",
-    "seo_title": "Proiecte contra COVID-19 - OpenSource",
-    "heading_second": "Idei propuse",
-    "action_info_need": "Avem nevoie de:",
-    "action_apply": "Vreau să mă implic",
-    "action_apply_team": "Aplică!",
-    "action_discussions": "Discuții"
+    "title": "Projects in development",
+    "seo_title": "Projects against COVID-19 - OpenSource",
+    "heading_second": "Submited Ideas",
+    "action_info_need": "We need:",
+    "action_apply": "I want to join",
+    "action_apply_team": "Aply!",
+    "action_discussions": "Discussions"
   },
   "footer": {
-    "copyright": "Creat de un grup de voluntari"
+    "copyright": "Created by a group of volunteers"
   }
 }

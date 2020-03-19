@@ -1,6 +1,7 @@
 ---
 path: "/about"
 date: "2020-19-04"
+locale: ro
 title: "Despre noi - despre proiectul c19.md"
 ---
 #Despre Noi

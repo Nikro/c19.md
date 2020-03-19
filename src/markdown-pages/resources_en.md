@@ -1,6 +1,7 @@
 ---
 path: "/en/resources"
 date: "2020-19-04"
+locale: en
 title: "About COVID-19"
 ---
 #Basics

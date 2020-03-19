@@ -1,6 +1,7 @@
 ---
 path: "/ru/hackathon"
 date: "2020-19-04"
+locale: ru
 title: "Hackathon Prima Ediție - 20-22 Martie"
 ---
 #Hackathon Prima Ediție - 20-22 martie

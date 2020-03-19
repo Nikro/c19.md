@@ -1,6 +1,7 @@
 ---
 path: "/ru/resources"
 date: "2020-19-04"
+locale: ru
 title: "Succint despre COVID-19"
 ---
 *[*Help translate to Russian please*.](mailto:contact@c19.md)*

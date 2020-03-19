@@ -28,12 +28,6 @@
   url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Chat+specialized+on+COVID-19+%5Bwith+BOT%5D
   trello: https://trello.com/c/dzbVo3tV/7-chat-specialized-on-covid-19-with-bot
 
-- idea_selfcheck:
-  name: Self-check App
-  description: 'Aplicație unde poți loga măsurări de temperatură, interacțiuni cu prieteni / rude, etc.'
-  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=COVID-19+Self-check+Mobile+App+%5BTemp+%2B+Interactions%5D
-  trello: https://trello.com/c/EvTqD8B1/9-covid-19-self-check-mobile-app-temp-interactions
-
 - idea_remotecheck:
   name: Remote Check
   description: 'Platformă cu cereri de verificare stării de sănătate a prietenilor și rudelor ce nu pot fi contactați.'

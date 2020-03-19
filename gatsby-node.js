@@ -35,7 +35,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       component: simplePageTemplate,
       context: {
         intl: {
-          locale: node.frontmatter.locale
+          language: node.frontmatter.locale
         }
       },
     })

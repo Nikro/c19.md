@@ -1,39 +1,39 @@
 {
-  "header": "Instrumente contra COVID-19 în Moldova",
-  "title": "Instrumente Open Source in contextul Moldovei",
-  "intro": "Alătură-te și tu comunității noastre și hai împreună să găsim soluții pentru informarea, prevenirea și îmbunătățirea situației critice cauzate de COVID-19, cu ajutorul tehnologiilor moderne disponibile azi!",
-  "language": "Română",
+  "header": "Приложения против вируса COVID-19 в Молдове",
+  "title": "Приложения в открытом доступе в контексте Молдовы",
+  "intro": "Присоединяйся к нашему сообществу и давай найдем решения для информирования, профилактики и улучшения критической ситуации созданной COVID-19, с помощью современных доступных технологий!",
+  "language": "Русский",
   "actions": {
-    "add_project": "Adaugă proiect / idee nouă",
-    "apply_hack": "Aplică la următorul Hackathon"
+    "add_project": "Добавить новый проект\идею",
+    "apply_hack": "Зарегистрируйся на следующий хакатон"
   },
   "menu": {
-    "projects": "Proiecte",
-    "mentors": "Mentori",
-    "hackathon": "Hackathon",
-    "resources": "Resurse Utile",
-    "about": "Despre Noi"
+    "projects": "Проекты",
+    "mentors": "Менторы",
+    "hackathon": "Хакатон",
+    "resources": "Полезные Pесурсы",
+    "about": "О Проекте"
   },
   "contact": {
-    "intro": "Informații de contact",
-    "team": "Contact echipa de c19.md",
-    "tech": "Contact echipa tehnică",
-    "fb": "Grupa pe Facebook",
-    "slack": "Discuții Slack (Invitație)"
+    "intro": "Контактная информация",
+    "team": "Связаться с командой c19.md",
+    "tech": " Связаться с техподдержкой",
+    "fb": "Группа на фейсбуке",
+    "slack": "Общение в приложении Slack"
   },
   "mentors": {
-    "title": "Mentori"
+    "title": "Менторы"
   },
   "index": {
-    "title": "Proiecte în dezvoltare",
-    "seo_title": "Proiecte contra COVID-19 - OpenSource",
-    "heading_second": "Idei propuse",
-    "action_info_need": "Avem nevoie de:",
-    "action_apply": "Vreau să mă implic",
-    "action_apply_team": "Aplică!",
-    "action_discussions": "Discuții"
+    "title": "Проекты на стадии разработки",
+    "seo_title": "Проекты против COVID-19 - доступных технологий",
+    "heading_second": "Предложенные идеи",
+    "action_info_need": "Нам нужны:",
+    "action_apply": "Хочу присоединиться",
+    "action_apply_team": "Присоединяйся!",
+    "action_discussions": "Обсуждения"
   },
   "footer": {
-    "copyright": "Creat de un grup de voluntari"
+    "copyright": "Создано группой волонтеров"
   }
 }

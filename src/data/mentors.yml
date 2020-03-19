@@ -15,7 +15,7 @@
 
 -
   name: Roman Chirca
-  description: "Roman Gluck’s day to day activity is being a Project Manager / UX Designer under the flag o' WIS Digital Agency."
+  description: "Product Owner at Pentalog. Public Speaking Trainer."
   image: mentors/gluck.jpg
 
 -
@@ -37,4 +37,18 @@
   name: Petru Dodu
   description: "Fondator la Dr. Tzoi. Former medic rezident at IMSP AMT Botanica CMF 3."
   image: mentors/petru_d.jpg
-
+  
+-
+  name: Alex Cucer
+  description: "Software Architecture, Cloud, Product Advisory and Software Development Advisory and Hands-on."
+  image: mentors/alex_c.jpg
+  
+-
+  name: Lilia Onea
+  description: "Director MedNews.md și reprezentant al Centrului de Informare și Comunicare în Sănătate"
+  image: mentors/lilia_o.jpg
+    
+-
+  name: Mihaela Didu
+  description: "Clinical Research - Oncology, Neurology, Central Nervous System and Inflammation therapeutic areas "
+  image: mentors/mihaela_d.jpg

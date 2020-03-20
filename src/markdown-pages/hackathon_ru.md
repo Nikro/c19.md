@@ -4,7 +4,6 @@ date: "2020-19-04"
 locale: ru
 title: "Hackathon Prima Ediție - 20-22 Martie"
 ---
-[Help translate to Russian please.](mailto:contact@c19.md)
 
 #Первый Хакатон - 20-22 марта
 

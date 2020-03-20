@@ -47,7 +47,7 @@ title: "Hackathon Prima Ediție - 20-22 Martie"
 - 18:00 - Итоговый прямой эфир  - презентация обновлений на проектах.
 - 21:00 - Party! Online, duh! (beer, games, etc.)
 
-P.S. Ты еще не в Slack? Вот приглашение на Slack. [Invitație la Slack](https://join.slack.com/t/c19md/shared_invite/zt-crwaj52o-t7WS8QBy2cM78eYd4fEhxw).
+P.S. Ты еще не в Slack? Вот приглашение на Slack. [Приглашение на Slack](https://join.slack.com/t/c19md/shared_invite/zt-crwaj52o-t7WS8QBy2cM78eYd4fEhxw).
 
 ## Поддержка
 

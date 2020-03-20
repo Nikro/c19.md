@@ -31,6 +31,7 @@ import ForumIcon from '@material-ui/icons/Forum'
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useIntl } from "gatsby-plugin-intl"
 import {Link as LinkInt} from "gatsby-plugin-intl"
+import Img from "gatsby-image"
 
 import Header from './header'
 import './layout.css'
@@ -41,6 +42,11 @@ const useStyles = makeStyles(theme => ({
     width: '100%',
     backgroundColor: theme.palette.background.paper,
   },
+  headers: {
+    textAlign: "center",
+    marginTop: theme.spacing(6),
+    marginBottom: theme.spacing(4),
+  },
   nested: {
     paddingLeft: theme.spacing(4),
   },
@@ -50,8 +56,8 @@ const Layout = ({ children }) => {
   const classes = useStyles()
   const intl = useIntl()
 
-  const [features, setFeatures] = React.useState(true)
-  const [info, setInfo] = React.useState(true)
+  const [features, setFeatures] = React.useState(false)
+  const [info, setInfo] = React.useState(false)
 
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('xs'), {
@@ -119,6 +125,41 @@ const Layout = ({ children }) => {
         </div>
 
         <main style={{paddingTop: `30px`, paddingBottom: `30px`}}>{children}</main>
+
+
+        <StaticQuery
+          query={graphql`
+              query orgsImg {
+                allOrgsYaml {
+                  nodes {
+                    img {
+                      childImageSharp {
+                        fixed(width: 300) {
+                          ...GatsbyImageSharpFixed
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `}
+          render={data => (
+            <React.Fragment>
+              <Typography component="div" className={classes.headers}><h2>{intl.formatMessage({ id: "support" })}</h2></Typography>
+              <Grid
+                container spacing={4}
+                justify="center"
+                alignItems="flex-start"
+              >
+                {data.allOrgsYaml.nodes.map((node, index) => (
+                  <Grid item key={index} xs={4}>
+                    <Img fixed={node.img.childImageSharp.fixed} imgStyle={{objectFit: 'contain', width: 'auto'}}/>
+                  </Grid>
+                ))}
+              </Grid>
+            </React.Fragment>
+          )}
+        />
 
         <List component="nav" className={classes.root}>
           <ListItem button onClick={() => handleClick("info")}>

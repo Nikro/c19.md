@@ -1,10 +1,11 @@
 ---
-path: "/ru/resources"
+path: "/resources"
 date: "2020-19-04"
 locale: ru
 title: "Succint despre COVID-19"
 ---
-*[*Help translate to Russian please*.](mailto:contact@c19.md)*
+[Help translate to Russian please.](mailto:contact@c19.md)
+
 #Despre Covid-19 - info de bază
 
 ###[Istoria Răspândirii](https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/summary.html)

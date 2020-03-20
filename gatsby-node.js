@@ -47,15 +47,9 @@ exports.onCreatePage = async ({ page, actions }) => {
   if (typeof page.context.type === "string" && page.context.type === "markdown" ) {
     languages = ['ro', 'ru', 'en']
     languages.forEach(language => {
-      deletePage(page)
-
-      if (page.context.language === page.context.locale) {
-        page.path = page.context.intl.originalPath
-        createPage(page)
+      if (page.context.language !== page.context.locale) {
+        deletePage(page)
       }
     })
-  }
-  if (page.path.includes('/ro/')) {
-    deletePage(page)
   }
 }

@@ -1,5 +1,5 @@
 ---
-path: "/ru/about"
+path: "/about"
 date: "2020-19-04"
 locale: ru
 title: "О Проекте c19.md"

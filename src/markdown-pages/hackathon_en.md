@@ -1,5 +1,5 @@
 ---
-path: "/en/hackathon"
+path: "/hackathon"
 date: "2020-19-04"
 locale: en
 title: "Hackathon First Edition - 20-22 March"

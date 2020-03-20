@@ -1,9 +1,11 @@
 ---
-path: "/ru/hackathon"
+path: "/hackathon"
 date: "2020-19-04"
 locale: ru
 title: "Hackathon Prima Ediție - 20-22 Martie"
 ---
+[Help translate to Russian please.](mailto:contact@c19.md)
+
 #Hackathon Prima Ediție - 20-22 martie
 
 Bună! Bine ai venit la **Hack the Virus** hackathon. Noi vom lucra împreună în echipe, online, la distanță, și vom crea diverse soluții Open Source pentru a îmbunătăți situația în Moldova privind virusul COVID-19. 

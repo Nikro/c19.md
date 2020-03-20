@@ -20,7 +20,7 @@ Check the [Resource](https://c19.md/en/resources) page for helpful articles that
 We will update this page with the embedded LIVE stream of the hackathon. But for now, some chilled working music.
 
 <center>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/yotZN1o9tek" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
 ## The plan

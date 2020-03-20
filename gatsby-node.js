@@ -44,12 +44,28 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 exports.onCreatePage = async ({ page, actions }) => {
   const { createPage, deletePage } = actions
 
+
   if (typeof page.context.type === "string" && page.context.type === "markdown" ) {
-    languages = ['ro', 'ru', 'en']
-    languages.forEach(language => {
+
+    console.log('-------------')
+
+    // languages = ['ro', 'ru', 'en']
+    // languages.forEach(language => {
       if (page.context.language !== page.context.locale) {
         deletePage(page)
+
+        console.log('-------- DELETED -----')
+        console.log(page)
       }
-    })
+      else {
+        console.log('-------- REM -----')
+        console.log(page)
+      }
+      if (page.path.includes('/ro/')) {
+        deletePage(page)
+        page.path = page.context.intl.originalPath
+        createPage(page)
+      }
+    // })
   }
 }

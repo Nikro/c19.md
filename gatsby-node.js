@@ -34,6 +34,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
             frontmatter {
               path
               locale
+              seed
             }
           }
         }
@@ -74,7 +75,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           languages: [node.frontmatter.locale],
           messages: getMessages(`${__dirname}/src/intl`, node.frontmatter.locale),
           routed: true,
-          originalPath: node.frontmatter.path,
+          originalPath: node.frontmatter.seed,
           redirect: false,
           defaultLanguage: 'ro',
         },

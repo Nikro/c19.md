@@ -1,5 +1,6 @@
 ---
 path: "/hackathon"
+seed: "/hackathon"
 date: "2020-19-04"
 locale: ro
 title: "Hackathon Prima Ediție - 20-22 Martie"

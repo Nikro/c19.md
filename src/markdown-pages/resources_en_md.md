@@ -44,24 +44,24 @@ The Moldovan Parliament approved on March 17, the draft Government Decision on d
 
 #Possible Scenarios/Forecasting
 
-⋅⋅*Rate of invected and severely ill will grow drastically in the future weeks due to a big number of vulnerable people who suffer from other conditions.
-⋅⋅*The rate of unemployment will skydive.
-⋅⋅*Small and medium companies closing and going out of business.
-⋅⋅*Hospitals overcrowded.
-⋅⋅*Government stepping in with tax exemptions, staggered payments, allowances to support companies and those in need. [More info](https://unimedia.info/ro/news/a2b6225f8cc818f5/scutiri-de-impozite-si-plati-esalonate-vezi-planul-de-actiuni-al-guvernului-pentru-a-sustine-economia-si-cetatenii.html)
+- Rate of invected and severely ill will grow drastically in the future weeks due to a big number of vulnerable people who suffer from other conditions.
+- The rate of unemployment will skydive.
+- Small and medium companies closing and going out of business.
+- Hospitals overcrowded.
+- Government stepping in with tax exemptions, staggered payments, allowances to support companies and those in need. [More info](https://unimedia.info/ro/news/a2b6225f8cc818f5/scutiri-de-impozite-si-plati-esalonate-vezi-planul-de-actiuni-al-guvernului-pentru-a-sustine-economia-si-cetatenii.html)
 
 
 #Possible Problems
 
-⋅⋅*Fake news and misinformation.
-⋅⋅*Food and medical supplies shortage as a cause of irrational purchases.
-⋅⋅*Orthodox churches rebel against the order to close all activities and rituals. Continuing religious gatherings put at a major risk of infection the elderly population who are the main ones attending the church and one of the most vulnerable.
-⋅⋅*People behaving irresponsibly and continuing close contact with family members, friends, and not self-isolating in case of need.
-⋅⋅*Hospitals being underprepared for the pandemic might cause chaos and not everyone could get the proper medical care they need.
-⋅⋅*Moldova has many people who are in the risk category for C19. We have as of 2018 **120k** diabetics, as of 2017 **52k** suffer from cancer, more than **700k** suffer from heart problems, it is considered that 40% of the population suffers from hypertension, cardiovascular problems are the number one cause of death in Moldova.
-⋅⋅*Businesses might suffer great losses and even bankruptcy, being forced to close down.
-⋅⋅*People are left without a job and source of income. Many companies are not able to continue paying the salaries and small business owners, sellers, those who work in the food industry and offer public services and entertainment that are not allowed to work now are left without the main source of income.
-⋅⋅*The Government not being involved in financially sustaining small and medium businesses or those who are not working.
+- Fake news and misinformation.
+- Food and medical supplies shortage as a cause of irrational purchases.
+- Orthodox churches rebel against the order to close all activities and rituals. Continuing religious gatherings put at a major risk of infection the elderly population who are the main ones attending the church and one of the most vulnerable.
+- People behaving irresponsibly and continuing close contact with family members, friends, and not self-isolating in case of need.
+- Hospitals being underprepared for the pandemic might cause chaos and not everyone could get the proper medical care they need.
+- Moldova has many people who are in the risk category for C19. We have as of 2018 **120k** diabetics, as of 2017 **52k** suffer from cancer, more than **700k** suffer from heart problems, it is considered that 40% of the population suffers from hypertension, cardiovascular problems are the number one cause of death in Moldova.
+- Businesses might suffer great losses and even bankruptcy, being forced to close down.
+- People are left without a job and source of income. Many companies are not able to continue paying the salaries and small business owners, sellers, those who work in the food industry and offer public services and entertainment that are not allowed to work now are left without the main source of income.
+- The Government not being involved in financially sustaining small and medium businesses or those who are not working.
 
 Sources:
 [Fake news](https://unimedia.info/ro/news/558adbbf3c48aade/fake-newsuri-in-plina-pandemie-politia-atentioneaza-oamenii-sa-nu-se-lase-manipulati.html)
@@ -72,18 +72,20 @@ Sources:
 
 #Possible Solutions
 
-⋅⋅*Close communication with the hospitals and the community to identify their needs and ways for us to be helpful.
-⋅⋅*The Hackathons.
-⋅⋅*Big Campaigns of informing correctly the population, especially the elderly.
-⋅⋅*Government support for companies at risk.
-⋅⋅*Exemptions for the population and companies regarding taxes, bills, credit payment for the nest period.
-⋅⋅*E-learning platforms for pupils and students.
-⋅⋅*Support for people that are in the risk group: food, medical, house supplisies delivery at home.
+- Close communication with the hospitals and the community to identify their needs and ways for us to be helpful.
+- The Hackathons.
+- Big Campaigns of informing correctly the population, especially the elderly.
+- Government support for companies at risk.
+- Exemptions for the population and companies regarding taxes, bills, credit payment for the nest period.
+- E-learning platforms for pupils and students.
+- Support for people that are in the risk group: food, medical, house supplisies delivery at home.
 
 ###Useful Platforms
 
 Infopage - https://info.c19.md/
+
 E-learning - studii.md / https://invat.online / Google Classrom / [Teleradio Moldova will play radio lessons for pupils](https://diez.md/2020/03/19/teleradio-moldova-va-difuza-lectii-de-pregatire-pentru-examenele-elevilor-din-clasa-a-ix-a-si-a-xii-a/?fbclid=IwAR2iGiCSZsQiz2u0-_GXAN6XPdRBG_9oZdAazgmU0f8iIHsLTvj0cR0RSGY)
+
 Projects and solutions - https://c19.md/
 
 

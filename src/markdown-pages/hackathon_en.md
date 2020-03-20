@@ -52,6 +52,17 @@ PS. You are NOT on Slack yet? Here's an [Invite to Slack](https://join.slack.com
 
 The Hackathon c19.md is implemented with the support of the United States Agency for International Development (USAID) and of Sweden in the framework of ”Tekwill” Project.
 
-![Tekwill](https://c19.md/images/tekwill.jpg)
-![USAID](https://c19.md/images/usaid.jpg)
-![SWEDEN](https://c19.md/images/sweden.jpg)
+<table>
+    <tr>
+        <td>
+        ![Tekwill](https://c19.md/images/tekwill.jpg)
+        </td>
+        <td>
+        ![USAID](https://c19.md/images/usaid.jpg)
+        </td>
+        <td>
+        ![SWEDEN](https://c19.md/images/sweden.jpg)
+        </td>
+    </tr>
+</table>
+

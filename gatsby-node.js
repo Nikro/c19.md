@@ -44,8 +44,14 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 exports.onCreatePage = async ({ page, actions }) => {
   if (typeof page.context.type === "string" && page.context.type === "markdown" ) {
     const { createPage, deletePage } = actions
-    if (page.path.includes('/ro/')) {
+    languages = ['ro', 'ru', 'en']
+    languages.forEach(language => {
       deletePage(page)
-    }
+
+      if (page.context.language === page.context.locale) {
+        page.path = page.context.intl.originalPath
+        createPage(page)
+      }
+    })
   }
 }

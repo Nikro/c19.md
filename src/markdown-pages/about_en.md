@@ -1,5 +1,5 @@
 ---
-path: "/about"
+path: "/en/about"
 date: "2020-19-04"
 locale: en
 title: "About the project - c19.md"

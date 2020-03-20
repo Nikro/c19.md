@@ -52,6 +52,4 @@ PS. Încă nu ești pe Slack? Aici este [Invitație la Slack](https://join.slack
 
 Hackathon c19.md este implementat / organizat / realizată cu sprijinul Agenției Statelor Unite pentru Dezvoltare Internațională (USAID) și Suediei în cadrul Proiectului ”Tekwill”.
 
-![Tekwill](https://c19.md/images/tekwill.jpg)
-![USAID](https://c19.md/images/usaid.jpg)
-![SWEDEN](https://c19.md/images/sweden.jpg)
+![Tekwill](https://c19.md/images/tekwill.jpg) ![USAID](https://c19.md/images/usaid.jpg) ![SWEDEN](https://c19.md/images/sweden.jpg)

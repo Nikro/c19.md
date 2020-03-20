@@ -36,8 +36,8 @@
 
 - idea_business:
   name:
-    ro: Suport pentru Întreprinderi / Antreprenori
-    ru: Поддержка для бизнеса / Поддержка предприятий
+    ro: Suport pentru Întreprinderi
+    ru: Поддержка для бизнеса
     en: Support for Businesses
   description:
     ro: 'Ajutor, sfaturi, ghiduri pentru antreprenori.'

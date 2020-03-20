@@ -53,4 +53,3 @@ P.S. Ты еще не в Slack? Вот [приглашение на Slack](https
 
 Хакатон с19.md воплощен в жизнь/организован/реализован при поддержке Агентства США по международному развитию (USAID) и Швеции в рамках проекта ”Tekwill””.
 
-![Tekwill](https://c19.md/images/tekwill.jpg) ![USAID](https://c19.md/images/usaid.jpg) ![SWEDEN](https://c19.md/images/sweden.jpg)

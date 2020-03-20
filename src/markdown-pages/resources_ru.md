@@ -6,7 +6,8 @@ locale: ru
 title: "Про COVID-19"
 ---
 
+#Про COVID-19
 
-[Базовые данные](https://c19.md/ru/resources/basics)
+##[Базовые данные](https://c19.md/ru/resources/basics)
 
-[COVID-19 в Молдове](https://c19.md/ru/resources/md)
+##[COVID-19 в Молдове](https://c19.md/ru/resources/md)

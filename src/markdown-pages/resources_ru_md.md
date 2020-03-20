@@ -1,6 +1,6 @@
 ---
 path: "ru/resources/md"
-seed: "/resources"
+seed: "/resources/md"
 date: "2020-19-04"
 locale: ru
 title: "Succint despre COVID-19: in Moldova"

@@ -1,6 +1,6 @@
 ---
 path: "/resources/basics"
-seed: "/resources"
+seed: "/resources/basics"
 date: "2020-19-04"
 locale: ro
 title: "Succint despre COVID-19 - info de bază"

@@ -7,6 +7,6 @@ title: "Succint despre COVID-19"
 ---
 #Despre Covid-19
 
-[Basics](https://c19.md/resources/basics)
+##[Basics](https://c19.md/resources/basics)
 
-[COVID-19 in Moldova](https://c19.md/resources/md)
+##[COVID-19 in Moldova](https://c19.md/resources/md)

@@ -152,7 +152,7 @@ const Layout = ({ children }) => {
                 alignItems="flex-start"
               >
                 {data.allOrgsYaml.nodes.map((node, index) => (
-                  <Grid item key={index} xs={4}>
+                  <Grid item key={index} xs={12} sm={6} md={4}>
                     <Img fixed={node.img.childImageSharp.fixed} imgStyle={{objectFit: 'contain', width: 'auto'}}/>
                   </Grid>
                 ))}

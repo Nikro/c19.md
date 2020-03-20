@@ -12,7 +12,7 @@ Hey game-changers! Welcome to **Hack the Virus** hackathon. We will be working t
 
 If you haven't applied, please go to our [homepage](https://c19.md/en) and apply (make sure you either submit a new idea or join an existing team).
 
-Check the [Resource](https://c19.md/en/resource) page for helpful articles that can be useful in the hackathon.
+Check the [Resource](https://c19.md/en/resources) page for helpful articles that can be useful in the hackathon.
 
 ## Live
 

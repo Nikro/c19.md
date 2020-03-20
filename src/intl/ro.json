@@ -1,7 +1,7 @@
 {
   "header": "Instrumente contra COVID-19 în Moldova",
-  "title": "Instrumente Open Source in contextul Moldovei",
-  "intro": "Alătură-te și tu comunității noastre și hai împreună să găsim soluții pentru informarea, prevenirea și îmbunătățirea situației critice cauzate de COVID-19, cu ajutorul tehnologiilor moderne disponibile azi!",
+  "title": "Instrumente open-source în contextul pandemiei Covid-19 din Republica Moldova",
+  "intro": "Alătură-te și tu comunității noastre și hai împreună să găsim soluții pentru informarea, prevenirea și îmbunătățirea situației critice cauzate de COVID-19, cu ajutorul tehnologiilor informaționale moderne disponibile azi!",
   "language": "Română",
   "actions": {
     "add_project": "Adaugă proiect / idee nouă",
@@ -16,17 +16,17 @@
   },
   "contact": {
     "intro": "Informații de contact",
-    "team": "Contact echipa de c19.md",
-    "tech": "Contact echipa tehnică",
-    "fb": "Grupa pe Facebook",
-    "slack": "Discuții Slack (Invitație)"
+    "team": "Contactează echipa c19.md",
+    "tech": "Contactează echipa tehnică",
+    "fb": "Ne găsești pe Facebook",
+    "slack": "Ne găsești pe Slack"
   },
   "mentors": {
     "title": "Mentori"
   },
   "index": {
     "title": "Proiecte în dezvoltare",
-    "seo_title": "Proiecte contra COVID-19 - OpenSource",
+    "seo_title": "Proiecte contra COVID-19 - Open-Source",
     "heading_second": "Idei propuse",
     "action_info_need": "Avem nevoie de:",
     "action_apply": "Vreau să mă implic",

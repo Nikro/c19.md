@@ -1,10 +1,10 @@
 - project_bed_tracker:
   name:
-    ro: "Tracker de paturi disponibile"
+    ro: "Monitorizare și căutare de paturi disponibile"
     ru: "Отслеживание доступных кроватей"
     en: "Available Beds Tracker"
   description:
-    ro: "Tracker de paturi disponibile, pentru pacienți în starea critică."
+    ro: "Monitorizare și căutare de paturi disponibile, pentru pacienți în starea critică."
     ru: "Отслеживание доступных кроватей, для критических пациентов"
     en: "Tracker of available beds, for critical patients."
   apply: https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform?usp=pp_url&entry.624201775=Available+Beds++Tracker,+for+critical+patients
@@ -99,7 +99,7 @@
     ru: "KnowVid19"
     en: "KnowVid19"
   description:
-    ro: "Resurs veridic ce lupta cu dezinformarea, ignoranța și zvonurile"
+    ro: "Resursă veridică ce lupta cu dezinformarea, ignoranța și zvonurile"
     ru: "Достоверный ресурс борющийся с дезинформацией, неведением и слухами."
     en: "Online resource that fights disinformation, ignorance and fakes"
   github:

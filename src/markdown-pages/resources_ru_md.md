@@ -1,5 +1,5 @@
 ---
-path: "ru/resources/md"
+path: "/ru/resources/md"
 seed: "/resources/md"
 date: "2020-19-04"
 locale: ru

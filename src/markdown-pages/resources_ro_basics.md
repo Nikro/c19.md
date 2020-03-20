@@ -32,6 +32,7 @@ Simptome
 - Dificultăți ale respirației
 
 [Source](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html)
+
 [Coronavirus informații utile](https://msmps.gov.md/ro/content/ce-este-un-coronavirus-de-tip-nou-cum-sa-te-protejezi-impotriva-acestei-infectii-intrebari)
 
 #Mai multă informație
@@ -90,6 +91,7 @@ Aproximativ 35 de companii și instituții academice se pregătesc să creeze un
 Unele companii farmaceutice spun că procesul poate dura până la un an, alți cercetători au menționat că poate dura între șase și opt săptămâni. Timpul exact însă nu se cunoaște. Procesul de a face un vaccin sigur și eficient are mai multe etape și poate dura până la un deceniu sau mai mult până la aprobarea acestuia. Și chiar după ce va exista unul aprobat, procesul de fabricare și distribuire a vaccinului tuturor celor care au nevoie de acesta poate fi lung și provocator.
 
 [Sursa](https://www.theguardian.com/world/2020/mar/17/when-will-a-coronavirus-vaccine-be-ready)
+
 Mai multă informație: [AICI](https://www.pharmaceutical-technology.com/features/covid-19-vaccine-development/)
 
 #Statistica

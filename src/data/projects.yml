@@ -70,13 +70,13 @@
 
 - project_anti_sceptic:
   name:
-    ro: Fight Sceptics
-    ru: Fight Sceptics
+    ro: Combaterea scepticismului
+    ru: "Борьба со скептицизмом"
     en: Fight Sceptics
   description:
-    ro: "Combaterea scepticismului"
+    ro: "Proiecte media și campanii menite combaterii scepticismului și dezinformării în public."
     ru: "Борьба со скептицизмом"
-    en: "Fight Sceptics"
+    en: "Media projects and campaigns aiming to fight sceptisism and disinfirmation in public"
   apply: https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform?usp=pp_url&entry.624201775=Combaterea+scepticismului
   trello: https://trello.com/c/mtyvwwbg
   github:

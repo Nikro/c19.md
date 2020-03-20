@@ -39,6 +39,7 @@ On the 13th of March Moldova declared Red Code due to the pandemic.
 The Moldovan Parliament approved on March 17, the draft Government Decision on declaring the state of emergency, throughout the territory of the Republic of Moldova, between March 17 and May 15, 2020.
 
 [More details](https://ansp.md/index.php/subdiviziunile-teritoriale-ale-ansp-implicate-activ-in-supravegherea-controlul-si-prevenirea-infectiei-cu-coronavirus-de-tip-nou-covid-19/)
+
 [More details](https://moldova.europalibera.org/a/pie%C8%9Bele-punctele-comerciale-%C8%99i-restaurantele-vor-fi-%C3%AEnchise-temporar-pentru-a-%C8%9Bine-sub-control-epidemia/30489134.html)
 
 
@@ -65,9 +66,13 @@ The Moldovan Parliament approved on March 17, the draft Government Decision on d
 
 Sources:
 [Fake news](https://unimedia.info/ro/news/558adbbf3c48aade/fake-newsuri-in-plina-pandemie-politia-atentioneaza-oamenii-sa-nu-se-lase-manipulati.html)
+
 [Patient Interview](https://unimedia.info/ro/news/d1d33f4208346856/italia-apelul-din-spital-al-uneia-dintre-primele-persoane-bolnave-de-coronavirus-am-vrut-sa-vedeti-in-ochii-si-corpul-meu-suferinta-foarte-putini-au-inteles-cu-adevarat-cu-ce-ne-confruntam.html)
+
 [Churches](http://www.infotag.md/populis-en/283364/)
+
 [Cardiovascular illnesses](https://msmps.gov.md/ro/content/peste-700-de-mii-de-moldoveni-sufera-de-afectiuni-cardiovasculare)
+
 [Death Rates from illnesses](https://statistica.gov.md/newsview.php?l=ro&idc=168&id=6360)
 
 #Possible Solutions

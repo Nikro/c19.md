@@ -8,8 +8,8 @@ title: "About COVID-19"
 #About COVID-19
 
 
-[Basics](https://c19.md/en/resources/basics)
+##[Basics](https://c19.md/en/resources/basics)
 
-[COVID-19 in Moldova](https://c19.md/en/resources/md)
+##[COVID-19 in Moldova](https://c19.md/en/resources/md)
 
 

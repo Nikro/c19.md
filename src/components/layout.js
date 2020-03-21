@@ -181,11 +181,12 @@ const Layout = ({ children }) => {
                 elevation={1}
                 width="100%"
                 spacing={3}
-                download={false}
+                download={true}
                 autoplay={false}
                 preload="auto"
                 loop={false}
                 useStyles={useStyles}
+                variation="primary"
               />
             </ThemeProvider>
           </Grid>

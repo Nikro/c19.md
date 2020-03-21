@@ -32,6 +32,9 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useIntl } from "gatsby-plugin-intl"
 import {Link as LinkInt} from "gatsby-plugin-intl"
 import Img from "gatsby-image"
+import { createMuiTheme } from '@material-ui/core';
+import { ThemeProvider } from '@material-ui/styles';
+import AudioPlayer from 'material-ui-audio-player';
 
 import Header from './header'
 import './layout.css'
@@ -50,6 +53,33 @@ const useStyles = makeStyles(theme => ({
   nested: {
     paddingLeft: theme.spacing(4),
   },
+  sliderContainerWrapper: {
+    display: 'none !important',
+  },
+  playIcon: {
+    color: '#f50057',
+    '&:hover': {
+      color: '#ff4081'
+    }
+  },
+  pauseIcon: {
+    color: '#f50057',
+    '&:hover': {
+      color: '#ff4081'
+    }
+  },
+  volumeIcon: {
+    color: 'rgba(0, 0, 0, 0.54)',
+    '&:hover': {
+      color: '#7986cb'
+    },
+  },
+  volumeSlider: {
+    color: 'black'
+  },
+  gridSpaced: {
+    marginTop: '40px'
+  }
 }));
 
 const Layout = ({ children }) => {
@@ -74,6 +104,7 @@ const Layout = ({ children }) => {
         break
     }
   }
+  const muiTheme = createMuiTheme({});
 
   return (
     <div style={{ minHeight: '100vh', backgroundColor: '#FFF' }}>
@@ -124,8 +155,29 @@ const Layout = ({ children }) => {
           </Grid>
         </div>
 
-        <main style={{paddingTop: `30px`, paddingBottom: `30px`}}>{children}</main>
+        <Grid container spacing={3} justify="center" className={classes.gridSpaced}>
+          <Grid item xs={10} sm={4} md={3}>
+            <Typography variant="h6" component="h3">Cowsay Show Live!</Typography>
+          </Grid>
+          <Grid item xs={10} sm={8} md={5}>
+            <ThemeProvider theme={muiTheme} >
+              <AudioPlayer
+                src="http://cowsay.show:8000/live.ogg"
+                elevation={1}
+                width="100%"
+                spacing={3}
+                download={false}
+                autoplay={false}
+                preload="auto"
+                loop={false}
+                useStyles={useStyles}
+              />
+            </ThemeProvider>
+          </Grid>
+        </Grid>
 
+
+        <main style={{paddingTop: `30px`, paddingBottom: `30px`}}>{children}</main>
 
         <StaticQuery
           query={graphql`

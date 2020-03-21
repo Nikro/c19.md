@@ -77,6 +77,21 @@ const useStyles = makeStyles(theme => ({
   volumeSlider: {
     color: 'black'
   },
+  progressTime: {
+    display: 'none'
+  },
+  mainSlider: {
+    color: '#3f51b5',
+    '& .MuiSlider-rail': {
+      color: '#7986cb'
+    },
+    '& .MuiSlider-track': {
+      color: '#3f51b5'
+    },
+    '& .MuiSlider-thumb': {
+      color: '#303f9f'
+    }
+  },
   gridSpaced: {
     marginTop: '40px'
   }

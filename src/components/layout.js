@@ -177,7 +177,7 @@ const Layout = ({ children }) => {
           <Grid item xs={10} sm={8} md={5}>
             <ThemeProvider theme={muiTheme} >
               <AudioPlayer
-                src="http://cowsay.show:8000/live.ogg"
+                src="https://cowsay.show/live"
                 elevation={1}
                 width="100%"
                 spacing={3}

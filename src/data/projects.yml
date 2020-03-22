@@ -134,3 +134,23 @@
       type: Web Developer
       subtype: Gatsby
       image: platforms/gatsby.png
+      
+- project_robot:
+  name:
+    ro: Robot Delivery
+    ru: Robot Delivery
+    en: Robot Delivery
+  description:
+    ro: "Crearea unui robot/mașinărie care să meargă în spitale sau locuri unde oamenii sunt în carantină și să livreze mâncare și medicamente."
+    ru: "Создание робота или механизма который использовался бы в госпиталях или местах где люди в карантине для того чтобы доставлять еду и лекарства."
+    en: "Creating a robot or device that would come to hospitals or places where people are quarantined in order to deliver food or medicine."
+      
+- project_dispenser:
+  name:
+    ro: Automatic Hand Sanitizer
+    ru: Automatic Hand Sanitizer
+    en: Automatic Hand Sanitizer
+  description:
+    ro: "Dispozitiv pentru dezinfectarea automată a mîinilor fără contact direct cu acesta."
+    ru: "Прибор для автоматического дезинфицирования рук людей в общественном транспорте, без контакта с прибором"
+    en: "A device for contactless automated hand sanitizing , preventing spreading of the infection."

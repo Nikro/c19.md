@@ -21,7 +21,7 @@ title: "Hackathon Prima Ediție - 20-22 Martie"
 Мы обновим эту страницу с прямым эфиром с хакатона. А до тех пор, можете работать продуктивнее с этой трансляцией.
 
 <center>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/7rXEUovuSak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/5CPtGLOQB3c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
 ## Расписание

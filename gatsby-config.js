@@ -65,8 +65,6 @@ module.exports = {
         id: "GTM-WJ8M9TK",
         includeInDevelopment: false,
         defaultDataLayer: { platform: "gatsby" },
-        gtmAuth: "rUvoNil_Kvjk2V-bi6-i1g",
-        gtmPreview: "env-1",
         dataLayerName: "dataLayer",
       },
     },

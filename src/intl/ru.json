@@ -33,13 +33,13 @@
     "action_apply_team": "Присоединяйся!"
   },
   "status": {
-    "active": "In active development",
-    "unaffiliated": "Un-affiliated project"
+    "active": "В активной разработке",
+    "unaffiliated": "Независимый проект"
   },
   "tooltip": {
-    "url": "Project's Website",
-    "source": "Source Code",
-    "trello": "Trello Discussions"
+    "url": "Сайт проекта",
+    "source": "Исходный код",
+    "trello": "Обсуждения в trello"
   },
   "support": "При поддержке",
   "footer": {

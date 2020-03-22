@@ -1,4 +1,5 @@
 - idea_ml:
+  status: inactive
   name:
     ro: Diagnistică cu Inteligența Artificială
     ru: ML Diagnostics
@@ -11,6 +12,7 @@
   trello: https://trello.com/c/zqRoNuDb/2-machine-learning-for-covid-19-diagnosis-vladimir-s-diana
 
 - idea_geo_tag:
+  status: inactive
   name:
     ro: Geo-tagging for hospitals
     ru: Geo-tagging for hospitals
@@ -23,6 +25,7 @@
   trello: https://trello.com/c/CDOHKyyK
 
 - idea_ventilator:
+  status: inactive
   name:
     ro: Oxygen Concentrator [hardware]
     ru: Oxygen Concentrator [hardware]
@@ -34,19 +37,8 @@
   url: https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform?usp=pp_url&entry.624201775=%5BEtapa:+Ideea%5D+Oxygen+Concentrator++%5Bhardware%5D
   trello: https://trello.com/c/OGxTf48O
 
-- idea_business:
-  name:
-    ro: Suport pentru Întreprinderi
-    ru: Поддержка для бизнеса
-    en: Support for Businesses
-  description:
-    ro: 'Ajutor, sfaturi, ghiduri pentru antreprenori.'
-    ru: 'Помощь, советы, гиды/руководство для предпринимателей/бизнесменов.'
-    en: 'Help, advice, guides for business.'
-  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Support+for+Businesses
-  trello: https://trello.com/c/KfkEGgao/6-support-for-businesses
-
 - idea_chat:
+  status: inactive
   name:
     ro: Chatbot
     ru: Чат
@@ -59,6 +51,7 @@
   trello: https://trello.com/c/dzbVo3tV/7-chat-specialized-on-covid-19-with-bot
 
 - idea_remotecheck:
+  status: inactive
   name:
     ro: Verificare la distanță
     ru: Удаленная проверка
@@ -70,14 +63,15 @@
   url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Remote+Check+-Check-up+on+your+relative+(parents+/+grand-parents)
   trello: https://trello.com/c/9cvmCeGr/10-remote-check
 
-- idea_greenzone:
+- project_anti_sceptic:
+  status: inactive
   name:
-    ro: Zona Verde / Avoid them Maybe?
-    ru: Зелёная Зона / Может лучше избегать их?
-    en: Green Zone / Avoid them Maybe?
+    ro: "Combaterea scepticismului"
+    ru: "Борьба со скептицизмом"
+    en: "Fight Sceptics"
   description:
-    ro: 'O aplicație care să permită informarea utilizatorilor despre aglomerații în magazine, alimentari cu combustibil, pentru a micșora riscul infectării cu coronavirus.'
-    ru: 'Приложение, которое позволяет пользователям получать информацию о скоплениях людей в магазинах, магазинах топлива, чтобы уменьшить риск заражения коронавирусом.'
-    en: 'An application that would inform users about queues and gatherings of people in shops, supermarkets and other places.'
-  url: https://docs.google.com/forms/d/e/1FAIpQLScQXBzF7Qa3A6Y6XPd5IjkG-7EJgmO0S08i9LTu6leUekq4nA/viewform?usp=pp_url&entry.624201775=Zona+Verde+/+Avoid+Them+Maybe?
-  trello: https://trello.com/c/OMYccmM7/17-zona-verde-avoid-them-maybe
+    ro: "Proiecte media și campanii menite combaterii scepticismului și dezinformării în public."
+    ru: "Борьба со скептицизмом"
+    en: "Media projects and campaigns aiming to fight sceptisism and disinfirmation in public"
+  url: https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform?usp=pp_url&entry.624201775=Combaterea+scepticismului
+  trello: https://trello.com/c/mtyvwwbg

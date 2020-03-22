@@ -32,6 +32,15 @@
     "action_apply": "Присоединиться",
     "action_apply_team": "Присоединяйся!"
   },
+  "status": {
+    "active": "In active development",
+    "unaffiliated": "Un-affiliated project"
+  },
+  "tooltip": {
+    "url": "Project's Website",
+    "source": "Source Code",
+    "trello": "Trello Discussions",
+  },
   "support": "При поддержке",
   "footer": {
     "copyright": "Создано группой волонтеров"

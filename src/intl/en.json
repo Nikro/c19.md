@@ -32,6 +32,15 @@
     "action_apply": "I want to join",
     "action_apply_team": "Apply!"
   },
+  "status": {
+    "active": "In active development",
+    "unaffiliated": "Un-affiliated project"
+  },
+  "tooltip": {
+    "url": "Project's Website",
+    "source": "Source Code",
+    "trello": "Trello Discussions",
+  },
   "support": "Partners",
   "footer": {
     "copyright": "Created by a group of volunteers"

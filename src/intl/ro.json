@@ -32,6 +32,15 @@
     "action_apply": "Vreau să mă implic",
     "action_apply_team": "Aplică!"
   },
+  "status": {
+    "active": "În dezvoltare activă",
+    "unaffiliated": "Proiect ne-affiliat."
+  },
+  "tooltip": {
+    "url": "Site-ul proiectului",
+    "source": "Cod sursă",
+    "trello": "Discuții trello",
+  },
   "support": "Susținătorii Inițiativei",
   "footer": {
     "copyright": "Creat de un grup de voluntari"

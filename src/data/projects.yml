@@ -1,53 +1,21 @@
 - project_bed_tracker:
+  status: active
+  image: projects/disease.png
   name:
-    ro: "Monitorizare și căutare de paturi disponibile"
-    ru: "Отслеживание доступных кроватей"
-    en: "Available Beds Tracker"
+    ro: "Disease Control"
+    ru: "Disease Control"
+    en: "Disease Control"
   description:
     ro: "Monitorizare și căutare de paturi disponibile, pentru pacienți în starea critică."
     ru: "Отслеживание доступных кроватей, для критических пациентов"
     en: "Tracker of available beds, for critical patients."
-  apply: https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform?usp=pp_url&entry.624201775=Available+Beds++Tracker,+for+critical+patients
+  url: http://c19md.xyz/
   trello: https://trello.com/c/swGNp1ok
-  github:
-  requests:
-    -
-      type: Mentor
-      subtype: Tech / Non-Tech
-
-    -
-      type: Backed Developers
-      
-    -
-      type: System Architect
-         
-    -
-      type: Frontend Developers
-         
-    -
-      type:  Project Manager
-      
-
-- project_teacher_guide:
-  name:
-    ro: "Ghid online pentru profesori"
-    ru: "Пособие онлайн для учителя"
-    en: "Online Teacher Guide"
-  description:
-    ro: "Predatul la dinstanță -  ghid pentru profesori și școli"
-    ru: "Дистанционное / удалённое обучение - руководство для учителей и школ."
-    en: "Distance Learning - guide for teachers, schools."
-  apply: https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform?usp=pp_url&entry.624201775=%5BEtapa:+Ideea%5D+Distance+Learning+-+guide+for+teachers+/+schools
-  trello: https://trello.com/c/8gnIgATu
-  github:
-  requests:
-    -
-      type: Volunteers
-      subtype: Tech / Non-Tech
-    -
-      type: Developers
+  github: https://github.com/AlexanderC/DiseaseControl
 
 - project_help_need:
+  status: active
+  image: projects/help.png
   name:
     ro: "Help in Need"
     ru: "Помощь нуждающимися"
@@ -56,44 +24,14 @@
     ro: "Help to those in Need - food / medications"
     ru: "Помощь нуждающимися - еда / лекарства"
     en: "Help to those in Need - food / medications"
-  apply: https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform?usp=pp_url&entry.624201775=Help+to+those+in+Need+-+food+/+medications
+  url:
   trello: https://trello.com/c/DWlq9dQD
   github:
-  requests:
-    -
-      type: Mentor
-      subtype: Tech / Non-Tech
 
-    -
-      type: Volunteers
-
-
-- project_anti_sceptic:
-  name:
-    ro: Combaterea scepticismului
-    ru: "Борьба со скептицизмом"
-    en: Fight Sceptics
-  description:
-    ro: "Proiecte media și campanii menite combaterii scepticismului și dezinformării în public."
-    ru: "Борьба со скептицизмом"
-    en: "Media projects and campaigns aiming to fight sceptisism and disinfirmation in public"
-  apply: https://docs.google.com/forms/d/e/1FAIpQLScpzaozEhpFT5xYwJ8OkEsxW3eWl2U2TcYlf56FMtwy3AMRZQ/viewform?usp=pp_url&entry.624201775=Combaterea+scepticismului
-  trello: https://trello.com/c/mtyvwwbg
-  github:
-  requests:
-    -
-      type: Volunteers
-    -
-      type: Developers
-    -
-      type: PR
-    -
-      type: Creatives
-      subtype: desig, animation, drawing,
-    -
-      type: Influencers
 
 - project_know:
+  status: active
+  image: projects/know.png
   name:
     ro: "KnowVid19"
     ru: "KnowVid19"
@@ -102,10 +40,101 @@
     ro: "Resursă veridică ce lupta cu dezinformarea, ignoranța și zvonurile"
     ru: "Достоверный ресурс борющийся с дезинформацией, неведением и слухами."
     en: "Online resource that fights disinformation, ignorance and fakes"
-  github:
+  url: https://despre.c19.md/
+  github: https://forms.gle/V8XWg8Q9nSjqP2sC6
   trello: https://trello.com/c/v7NogCDb/31-knowvid19
 
+- idea_business:
+  status: active
+  image: projects/business.png
+  name:
+    ro: Suport pentru Întreprinderi
+    ru: Поддержка для бизнеса
+    en: Support for Businesses
+  description:
+    ro: 'Ajutor, sfaturi, ghiduri pentru antreprenori.'
+    ru: 'Помощь, советы, гиды/руководство для предпринимателей/бизнесменов.'
+    en: 'Help, advice, guides for business.'
+  url: https://seeonee.io/
+  trello: https://trello.com/c/KfkEGgao/6-support-for-businesses
+
+
+- project_robot:
+  status: active
+  image: projects/robot.png
+  name:
+    ro: Robot Delivery
+    ru: Robot Delivery
+    en: Robot Delivery
+  description:
+    ro: "Crearea unui robot/mașinărie care să meargă în spitale sau locuri unde oamenii sunt în carantină și să livreze mâncare și medicamente."
+    ru: "Создание робота или механизма который использовался бы в госпиталях или местах где люди в карантине для того чтобы доставлять еду и лекарства."
+    en: "Creating a robot or device that would come to hospitals or places where people are quarantined in order to deliver food or medicine."
+  url: https://robotics.c19.md
+  github: https://github.com/mdiannna/C19MD_Robotics
+  trello: https://trello.com/c/EciMNx0g/15-robot-deliveryrobotics
+
+
+- project_dispenser:
+  status: active
+  image: projects/dispenser.png
+  name:
+    ro: Automatic Hand Sanitizer
+    ru: Automatic Hand Sanitizer
+    en: Automatic Hand Sanitizer
+  description:
+    ro: "Dispozitiv pentru dezinfectarea automată a mîinilor fără contact direct cu acesta."
+    ru: "Прибор для автоматического дезинфицирования рук людей в общественном транспорте, без контакта с прибором"
+    en: "A device for contactless automated hand sanitizing , preventing spreading of the infection."
+  url: https://robotics.c19.md
+  github: https://github.com/mdiannna/C19MD_Robotics
+  trello: https://trello.com/c/io5tTOcX/32-automatic-hand-sanitizer
+
+
+- project_teacher_guide:
+  status: active
+  name:
+    ro: "Ghid online pentru profesori"
+    ru: "Пособие онлайн для учителя"
+    en: "Online Teacher Guide"
+  description:
+    ro: "Predatul la dinstanță -  ghid pentru profesori și școli"
+    ru: "Дистанционное / удалённое обучение - руководство для учителей и школ."
+    en: "Distance Learning - guide for teachers, schools."
+  url:
+  trello: https://trello.com/c/8gnIgATu
+  github:
+
+- idea_greenzone:
+  status: active
+  name:
+    ro: Zona Verde / Avoid them Maybe?
+    ru: Зелёная Зона / Может лучше избегать их?
+    en: Green Zone / Avoid them Maybe?
+  description:
+    ro: 'O aplicație care să permită informarea utilizatorilor despre aglomerații în magazine, alimentari cu combustibil, pentru a micșora riscul infectării cu coronavirus.'
+    ru: 'Приложение, которое позволяет пользователям получать информацию о скоплениях людей в магазинах, магазинах топлива, чтобы уменьшить риск заражения коронавирусом.'
+    en: 'An application that would inform users about queues and gatherings of people in shops, supermarkets and other places.'
+  trello: https://trello.com/c/OMYccmM7/17-zona-verde-avoid-them-maybe
+
+
+- project_gnome:
+  status: active
+  name:
+    ro: Harta genotipului COVID-19
+    ru: карта генотипа COVID-19
+    en: COVID-19 Genome map
+  description:
+    ro: "Dezvoltarea și cercatarea hărții genomului COVID-19 pentru aflarea punctelor de acțiune asupra virusului pentru eliminarea sau limitarea răspândirii sale."
+    ru: "Разработка и исследование карты генома COVID-19, чтобы найти точки действия на вирус для устранения или ограничения его распространения."
+    en: "The development and research of the CoVID-19 genome Map for searching of ways to erase or to limit the COVID-19 plague."
+  github: https://github.com/ScienceKot/Co-VID19
+  trello: https://trello.com/c/pQiezXqQ/35-gnome-sequencing
+
+
 - project_info:
+  status: unaffiliated
+  image: projects/info.png
   name:
     ro: "Info și Stats"
     ru: "Info & Stats"
@@ -119,6 +148,7 @@
 
 
 - c19.md:
+  status: active
   name:
     ro: c19.md
     ru: c19.md
@@ -128,29 +158,4 @@
     ru: "Сборник цифровых инструментов с открытым исходным кодом в контексте страны"
     en: "Current platform - collection of Open Source projects in the context of a country."
   github: https://github.com/Nikro/c19.md
-  apply: https://docs.google.com/forms/d/e/1FAIpQLSenuQDgeFCadKNvndVgShMAhYXtmmsKOhhzdpKenChs-TOcpA/viewform
-  requests:
-    -
-      type: Web Developer
-      subtype: Gatsby
-      image: platforms/gatsby.png
-      
-- project_robot:
-  name:
-    ro: Robot Delivery
-    ru: Robot Delivery
-    en: Robot Delivery
-  description:
-    ro: "Crearea unui robot/mașinărie care să meargă în spitale sau locuri unde oamenii sunt în carantină și să livreze mâncare și medicamente."
-    ru: "Создание робота или механизма который использовался бы в госпиталях или местах где люди в карантине для того чтобы доставлять еду и лекарства."
-    en: "Creating a robot or device that would come to hospitals or places where people are quarantined in order to deliver food or medicine."
-      
-- project_dispenser:
-  name:
-    ro: Automatic Hand Sanitizer
-    ru: Automatic Hand Sanitizer
-    en: Automatic Hand Sanitizer
-  description:
-    ro: "Dispozitiv pentru dezinfectarea automată a mîinilor fără contact direct cu acesta."
-    ru: "Прибор для автоматического дезинфицирования рук людей в общественном транспорте, без контакта с прибором"
-    en: "A device for contactless automated hand sanitizing , preventing spreading of the infection."
+  url:

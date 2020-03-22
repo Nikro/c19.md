@@ -9,6 +9,7 @@ import Grid from '@material-ui/core/Grid'
 import Container from '@material-ui/core/Container'
 import Button from '@material-ui/core/Button'
 import CardActions from '@material-ui/core/CardActions'
+import CardMedia from '@material-ui/core/CardMedia'
 import CardContent from '@material-ui/core/CardContent'
 import Card from '@material-ui/core/Card'
 import Typography from '@material-ui/core/Typography'
@@ -22,11 +23,15 @@ import ListItemText from '@material-ui/core/ListItemText'
 import ListItemAvatar from '@material-ui/core/ListItemAvatar'
 import Avatar from '@material-ui/core/Avatar'
 import Divider from '@material-ui/core/Divider'
+import Chip from '@material-ui/core/Chip';
 import CodeIcon from '@material-ui/icons/Code';
 import IconButton from '@material-ui/core/IconButton';
 import SpeakerNotesIcon from '@material-ui/icons/SpeakerNotes';
 import LinkIcon from '@material-ui/icons/Link';
+import LinkOffIcon from '@material-ui/icons/LinkOff';
+import WorkOutlineIcon from '@material-ui/icons/WorkOutline';
 import {Link as LinkInt} from "gatsby-plugin-intl"
+import Tooltip from '@material-ui/core/Tooltip';
 import { useIntl } from "gatsby-plugin-intl"
 
 const useStyles = makeStyles(theme => ({
@@ -46,7 +51,10 @@ const useStyles = makeStyles(theme => ({
     flexDirection: "column",
     justifyContent: "space-between",
     height: '100%',
-  }
+  },
+  media: {
+    height: 200,
+  },
 }));
 
 export default ({ data }) => {
@@ -69,29 +77,60 @@ export default ({ data }) => {
           {projectsCards.map(card => (
             <Grid item key={card} xs={12} sm={6} md={4} key={card.id}>
               <Card>
+                { card.image && (
+                  <CardMedia
+                    className={classes.media}
+                    image={card.image.childImageSharp.fixed.src}
+                    title={card.name[intl.locale]}
+                  />
+                )}
                 <CardContent className={classes.cardContent}>
                   <Typography gutterBottom variant="h5" component="h2">
                     { card.name[intl.locale] }
                   </Typography>
-                  <Typography variant="body2" component="p">
+                  <Typography variant="body2" component="p" color="textSecondary">
                     { card.description[intl.locale] }
                   </Typography>
+                  { card.status === 'active' && (
+                    <Chip
+                      icon={<WorkOutlineIcon />}
+                      label={intl.formatMessage({ id: "status.active" })}
+                      color="primary"
+                      size="small"
+                      style={{ marginTop: '10px', marginBottom: '5px', padding: '3px'}}
+                    />
+                  )}
+                  { card.status === 'unaffiliated' && (
+                    <Chip
+                      icon={<LinkOffIcon />}
+                      label={intl.formatMessage({ id: "status.unaffiliated" })}
+                      color="secondary"
+                      size="small"
+                      style={{ marginTop: '10px', marginBottom: '5px', padding: '3px'}}
+                    />
+                  )}
                 </CardContent>
                 <CardActions>
                   { card.url && (
-                    <IconButton color="primary" href={card.url}>
-                      <LinkIcon />
-                    </IconButton>
+                    <Tooltip title={intl.formatMessage({ id: 'tooltip.url' })}>
+                      <IconButton color="primary" href={card.url}>
+                        <LinkIcon />
+                      </IconButton>
+                    </Tooltip>
                   )}
                   { card.github && (
-                    <IconButton color="primary" href={card.github}>
-                      <CodeIcon />
-                    </IconButton>
+                    <Tooltip title={intl.formatMessage({ id: 'tooltip.source' })}>
+                      <IconButton color="primary" href={card.github}>
+                        <CodeIcon />
+                      </IconButton>
+                    </Tooltip>
                   )}
                   { card.trello && (
-                    <IconButton color="primary" href={card.trello}>
-                      <SpeakerNotesIcon />
-                    </IconButton>
+                    <Tooltip title={intl.formatMessage({ id: 'tooltip.trello' })}>
+                      <IconButton color="primary" href={card.trello}>
+                        <SpeakerNotesIcon />
+                      </IconButton>
+                    </Tooltip>
                   )}
                 </CardActions>
 
@@ -211,15 +250,11 @@ export const IndexPageQuery = graphql`
         id
         url
         trello
-        apply
-        requests {
-          type
-          subtype
-          image {
-            childImageSharp {
-              fixed(width: 100, height: 100) {
-                src
-              }
+        status
+        image {
+          childImageSharp {
+            fixed(height: 200) {
+              src
             }
           }
         }

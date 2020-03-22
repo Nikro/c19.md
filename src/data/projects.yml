@@ -149,6 +149,7 @@
 
 - c19.md:
   status: active
+  image: projects/c19.png
   name:
     ro: c19.md
     ru: c19.md

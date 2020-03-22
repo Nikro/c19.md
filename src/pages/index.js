@@ -76,7 +76,7 @@ export default ({ data }) => {
         <Grid container spacing={4}>
           {projectsCards.map(card => (
             <Grid item key={card} xs={12} sm={6} md={4} key={card.id}>
-              <Card>
+              <Card className={classes.card}>
                 { card.image && (
                   <CardMedia
                     className={classes.media}
